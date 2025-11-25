@@ -679,7 +679,7 @@ function BUY(props) {
                                 </Row>
                             </Col>
 
-                            <Col className="verticleLine">
+                            {/* <Col className="verticleLine">
                                 <Row className="mb-3">
                                     <Col style={{ textAlign: "center" }}>
                                         <p className="form-label buy_productType" style={{ color: "green" }}>Card</p>
@@ -714,7 +714,7 @@ function BUY(props) {
                                 </Row>
                             </Col>
                         </Row>
-                        <Row>
+                        <Row> */}
                             {/* <Col>
                                 <input
                                     type="text"
