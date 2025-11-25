@@ -14,6 +14,7 @@
     "axios": "^1.7.7",
     "base-64": "^1.0.0",
     "bootstrap": "^5.2.0",
+    "caniuse-lite": "^1.0.30001757",
     "framer-motion": "^7.6.19",
     "html-react-parser": "^3.0.8",
     "jquery": "^3.6.0",
