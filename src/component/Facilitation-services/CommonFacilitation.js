@@ -4,7 +4,6 @@ import { Row, Col } from "react-bootstrap";
 function CommonFacilitation() {
   return (
     <>
-    
       <div className="ctp-money-transfer-area pb-75">
         <div className="shadow-inner">
           <div className="container">
