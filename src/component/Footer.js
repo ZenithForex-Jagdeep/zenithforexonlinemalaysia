@@ -189,7 +189,7 @@ function Footer() {
               </p>
               <p className="text-white pt-2">
                 <i className="text-red fas fa-phone-volume"></i> Phone:
-                <a className="text-white" href="tel:162083854">+60-84482 89666</a>
+                <a className="text-white" href="tel:162083854">+60-162083854</a>
               </p>
               <p className="text-white pt-2">
                 Office Time <br />

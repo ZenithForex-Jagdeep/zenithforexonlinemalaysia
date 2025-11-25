@@ -128,7 +128,7 @@ function Header(props) {
                                             </li>
                                             <li className=" font-weight-bold" style={{ color: "grey" }}>
                                                 <i className="fas fa-phone-volume text-red" style={{ transform: "rotate(-45deg)" }}></i>
-                                                <a className="text-black" href="tel:162083854">+60-84482 89666</a>
+                                                <a className="text-black" href="tel:162083854">+60-162083854</a>
                                             </li>
 
                                             <li>

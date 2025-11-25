@@ -93,7 +93,7 @@ function Forms(props) {
       <Carousel activeIndex={index} onSelect={() => handleSelect()}>
 
         <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src="/img/banner6.png" width="100%" loading="lazy" onClick={() => navigate('/offer')}
+          <img className="d-block w-100" src="/img/banner6.png" width="100%" loading="lazy" onClick={() => navigate('/')}
             alt="offer.img" />
         </Carousel.Item>
 

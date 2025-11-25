@@ -243,7 +243,7 @@ function App() {
                                 <Route exact path="/corporate_upload" element={<CorpmoduleTest />}></Route>
                                 {/* <Route exact path="/convera-testing" element={<ConveraPaymentTesting />}></Route> */}
                                 {/* <Route exact path="/otp" element={<VerifyMobileEmailOtp show={true} />}></Route> */}
-                                <Route exact path="/offer" element={<HtmlOfferPage />} />
+                                {/* <Route exact path="/offer" element={<HtmlOfferPage />} /> */}
                                 <Route exact path="/corp-rate" element={<CorporateRate />}></Route>
                                 <Route exact path="/meta-tags" element={<MasterMetaTags />}></Route>
                                 <Route exact path="/select-institute" element={<SelectInstitute />}></Route>

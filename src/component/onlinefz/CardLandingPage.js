@@ -795,7 +795,7 @@ function CardLandingPage() {
                                 </p>
                                 <p className="texth pt-2">
                                     <i className="texth fas fa-phone-volume"></i> Phone:
-                                    <a className="into-text" href="tel:162083854">+60-84482 89666</a>
+                                    <a className="into-text" href="tel:162083854">+60-162083854</a>
                                 </p>
                                 <p className="text-blue pt-2">
                                     Office Time <br />
