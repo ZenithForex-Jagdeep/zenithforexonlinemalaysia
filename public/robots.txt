@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /feed/
+Disallow: /currency-exchange/:locid
+Disallow: /branchlist
+Disallow: /branch-list
+
+Allow: /
+
+Sitemap: https://www.zenithforexonline.com/sitemap.xml

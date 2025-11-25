@@ -1,0 +1,12 @@
+.gallery_section .col img {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+    transition: .5s ease;
+}
+
+
+.gallery_section .col img:hover {
+    transform: scale(1.06);
+    transition: .5s ease-in-out;
+}

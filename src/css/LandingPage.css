@@ -1,0 +1,130 @@
+.lp-button {
+    color: white;
+    border-color: #1761AE;
+    padding: 3px 3px 3px 3px;
+    border-radius: 20px;
+    background: #1761AE;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.lp-icon {
+    background: linear-gradient(90deg, #7f22a1, white);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: auto;
+    height: auto !important;
+}
+
+.lp-btn {
+    color: #1761AE;
+    font-weight: bold;
+    border: none;
+}
+
+.list-unstyled {
+    color: white;
+    margin-left: 2px;
+    font-size: 19px;
+    text-align: left;
+}
+
+.lp-heading {
+    color: white;
+}
+
+.Purpose {
+    color: #1761AE;
+    text-align: center;
+}
+
+.lp-card-title {
+    color: blue;
+}
+
+.lp-card-text {
+    color: #606060;
+}
+
+.form-control1 {
+    height: 50px !important;
+    /* width: 200px; */
+    max-width: 250px;
+    min-width: 160px
+}
+
+.form-control2 {
+    height: 50px !important;
+    border-color: #1761AE;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    max-width: 250px;
+    min-width: 160px
+}
+
+.btn1 {
+    border-radius: none;
+    color: white;
+    background-color: #1761AE;
+    /* border-color: blue; */
+    height: 50px !important;
+    /* width: 200px; */
+    max-width: 250px;
+    min-width: 160px;
+    /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3); */
+}
+
+.points {
+    color: #1761AE;
+    text-decoration: underline;
+}
+
+.lp-list-points {
+    color: #1761AE;
+}
+
+.card {
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+    color: #1761AE;
+}
+
+.ctp-faq-accordion .accordion-item {
+    background-color: #1761AE;
+}
+
+.ctp-faq-accordion .accordion-item .accordion-button {
+    color: white;
+}
+
+.ctp-faq-accordion .accordion-item {
+    color: white;
+}
+
+.into-text {
+    color: #6B6B6B;
+}
+
+.texth {
+    color: #1761AE;
+}
+
+@media (max-width: 995px) {
+    .lp_btn_margin {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .lp-choose {
+        min-width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .Purpose {
+        min-width: 100%
+    }
+}

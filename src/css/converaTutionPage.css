@@ -1,0 +1,9 @@
+:root {
+  --convera-page-bg: #1761AE ;
+}
+
+.tutionFeeBgImage{
+background-image: url('/public/Assets/images/pay-tution-fee-banner.png');
+  background-size: cover;
+  background-position: center;
+}

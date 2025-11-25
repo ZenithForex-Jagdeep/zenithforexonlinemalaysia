@@ -1,0 +1,149 @@
+  ::-webkit-scrollbar {
+      display: none;
+  }
+
+  /* Hide scrollbar for Firefox */
+  html {
+      scrollbar-width: none;
+  }
+
+
+
+  .logo {
+      width: 100px;
+      margin-left: -13px;
+  }
+
+  body {
+      font-family: 'Arial', sans-serif;
+      background: url("../images/cover8.png") no-repeat center center fixed;
+      background-size: cover;
+      color: black;
+      line-height: 1.5;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding-top: 5%;
+  }
+
+
+  /* Hero section */
+  .hero {
+      text-align: center;
+      /* margin-top: 1.5rem; */
+  }
+
+  .hero h1 {
+      font-size: 3rem;
+      letter-spacing: 0.2em;
+  }
+
+  .hero h2 {
+      font-size: 2.5rem;
+      color: green;
+      /* yellow */
+      margin: 0.2rem 0 1rem;
+  }
+
+  .powered {
+      font-size: 0.9rem;
+      opacity: 0.8;
+  }
+
+  .special {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      color: #ffdc00;
+  }
+
+  .lead {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+  }
+
+  .coupon {
+      font-size: 1rem;
+      margin: 1rem 0 2rem;
+  }
+
+  .coupon span {
+      background: #ffdc00;
+      color: #4b0082;
+      padding: 0.2rem 0.5rem;
+      border-radius: 3px;
+  }
+
+  /* Cashback slabs table */
+  .slabs {
+      margin-bottom: 2rem;
+  }
+
+  .slabs h3 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 0.3rem;
+  }
+
+  .tagline {
+      text-align: center;
+      font-weight: bold;
+      color: #ffdc00;
+      margin-bottom: 1rem;
+  }
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+  }
+
+  table th,
+  table td {
+      border: 1px solid black;
+      padding: 0.6rem 0.4rem;
+      font-size: 0.9rem;
+  }
+
+  table thead {
+      background: rgba(255, 255, 255, 0.1);
+  }
+
+  table th {
+      font-weight: 600;
+  }
+
+  /* REMOVE THIS — it's interfering with Bootstrap-style grid layout */
+  .how-to {
+      display: flex;
+      flex-direction: column-reverse;
+  }
+
+  .how-to img {
+      width: 175px;
+      height: auto;
+      border-radius: 10px;
+  }
+
+  /* How-to section */
+  .how-to {
+      font-size: 0.95rem;
+  }
+
+  .how-to h4 {
+      margin-bottom: 0.5rem;
+  }
+
+  .how-to ol {
+      margin-left: 1.2rem;
+      margin-bottom: 1rem;
+  }
+
+  .how-to li {
+      margin-bottom: 0.5rem;
+  }
+
+  .footer-note {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 20px;
+      opacity: 0.8;
+  }
