@@ -88,11 +88,11 @@ function Footer() {
                     Foreign Currency
                   </span>
                 </li>
-                <li className="pt-2">
+                {/* <li className="pt-2">
                   <span style={{ cursor: "pointer" }} onClick={() => { navigate("/student-lounge"); window.scrollTo(0, 0) }} className="text-white">
                     Student Lounge
                   </span>
-                </li>
+                </li> */}
                 {/* <li className="pt-2">
                   <span style={{ cursor: "pointer" }} onClick={() => { navigate("/gic"); window.scrollTo(0, 0) }} className="text-white">
                     GIC

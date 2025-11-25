@@ -39,12 +39,12 @@ function Products() {
               href="travel-insurance"
               src="/img/insurance1.png"
             /> */}
-            <Product_child
+            {/* <Product_child
               header="Student Lounge"
               text="Studying abroad is a global dream of millions of students. As far as we all understand, education plays a very important role in every person's life today, and sometimes it..."
               href="/student-lounge"
               src="/img/slounge1.png"
-            />
+            /> */}
           </Row>
         </div>
       </section>

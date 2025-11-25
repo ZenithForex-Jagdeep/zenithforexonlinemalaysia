@@ -699,11 +699,11 @@ function CardLandingPage() {
                                             Foreign Currency
                                         </span>
                                     </li>
-                                    <li className="pt-2">
+                                    {/* <li className="pt-2">
                                         <span style={{ cursor: "pointer" }} onClick={() => { navigate("/student-lounge"); window.scrollTo(0, 0) }} className="into-text">
                                             Student Lounge
                                         </span>
-                                    </li>
+                                    </li> */}
                                     <li className="pt-2">
                                         <span style={{ cursor: "pointer" }} onClick={() => { navigate("/gic"); window.scrollTo(0, 0) }} className="into-text">
                                             GIC
