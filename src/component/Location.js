@@ -33,7 +33,7 @@ function Location(props) {
     }
 
     const handleCloseButton = () => {
-        sessionStorage.location = 14;
+        sessionStorage.location = 1;
         setShow(false);
         window.location.reload();
     }
