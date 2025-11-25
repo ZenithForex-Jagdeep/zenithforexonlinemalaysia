@@ -147,7 +147,7 @@ function LandingPage() {
                 <title>{metaTag?.title}</title>
                 <meta name="description" content={metaTag?.description} />
                 <meta name="Keywords" content={metaTag?.keywords} />
-                <link rel="canonical" href="https://www.zenithforexonline.com/send-money-abroad" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/send-money-abroad" />
 
             </MetaTags>
             <Header />
@@ -207,7 +207,7 @@ function LandingPage() {
                     <LandingPageThesePurposes
                         imgpath="/image/Medical treatment.png"
                         title="Medical Treatment"
-                        description="Zenith Forex gives the best exchange rates for medical treatment abroad, facilitating 
+                        description="Zenith Global gives the best exchange rates for medical treatment abroad, facilitating 
                         seamless financial transactions through wire transfers and prepaid Forex cards."
                     />
                     <LandingPageThesePurposes
@@ -287,12 +287,12 @@ function LandingPage() {
                             <LandingPageChooseUs
                                 imgpath='/image/Ellipse 14.png'
                                 heading='Secure'
-                                content={["RBI Authorized Dealer-II", "Pan India Branch network", "Zenith Forex Online is known For building long -term, trustworthy relationship with clients."]}
+                                content={["RBI Authorized Dealer-II", "Pan India Branch network", "Zenith Global  is known For building long -term, trustworthy relationship with clients."]}
                             />
                             <LandingPageChooseUs
                                 imgpath='/image/Ellipse 15.png'
                                 heading='Contact Us'
-                                content={["onlineteam@zenithforex.com", "91-8448289666"]}
+                                content={["info@zenithglobal.com.my", "91-162083854"]}
                             />
 
                         </Row>

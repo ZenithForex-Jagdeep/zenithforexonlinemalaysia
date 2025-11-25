@@ -20,14 +20,14 @@ function RemittanceHome() {
     <div>
       <MetaTags>
         <title>Best Online Money Transfer Service for Sending Money Abroad from India</title>
-        <meta name="description" content="If you are looking for international money transfers with Zenith Forex. Send money abroad from India easily and enjoy the best foreign exchange rates by India's largest foreign exchange marketplace." />
+        <meta name="description" content="If you are looking for international money transfers with Zenith Global. Send money abroad from India easily and enjoy the best foreign exchange rates by India's largest foreign exchange marketplace." />
         <meta name="Keywords" content="Outward Remittance, send money abroad from India, Inward and Outward Remittance, transfer money abroad, money remittance, International Money Transfer" />
-        <link rel="canonical" href="https://www.zenithforexonline.com/money-transfer-service" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/money-transfer-service" />
       </MetaTags>
       <Header />
       <RemittanceHero></RemittanceHero>
       <div className="service_details">
-      <Remittance_Service_Details/>
+        <Remittance_Service_Details />
       </div>
       <RemittancePopularCountries></RemittancePopularCountries>
       <RemittanceEasyStep></RemittanceEasyStep>

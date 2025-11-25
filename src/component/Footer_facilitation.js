@@ -7,11 +7,11 @@ import Header from "./Header";
 function Footer_facilitation() {
   return (
     <>
-    <MetaTags>
-      <title>Visa Facilitation Services, Tours Facilitation Services India</title>
-      <meta name="description" content="Get Best Business Facilitation Services, Online Tours Facilitation Services, Visa and Passport Facilitation like business visa, tourists, visa, student visa to work permit." />
-      <meta name="Keywords" content="Business Facilitation Services, Online Facilitation Services, Visa Facilitation Services, and Tours Facilitation Services" />
-    </MetaTags>
+      <MetaTags>
+        <title>Visa Facilitation Services, Tours Facilitation Services India</title>
+        <meta name="description" content="Get Best Business Facilitation Services, Online Tours Facilitation Services, Visa and Passport Facilitation like business visa, tourists, visa, student visa to work permit." />
+        <meta name="Keywords" content="Business Facilitation Services, Online Facilitation Services, Visa Facilitation Services, and Tours Facilitation Services" />
+      </MetaTags>
       <Header />
       <div className="p-2 mb-5 footer_header">
         <div className="container">
@@ -21,8 +21,8 @@ function Footer_facilitation() {
       <div className="container about-det padd-30">
         <div className="row">
           <div className="col-12 col-md-3 order-md-2 mb-4">
-            <div style={{position:"sticky", top:"20px"}}>
-              <Enquiry_form service="Remittance"/>
+            <div style={{ position: "sticky", top: "20px" }}>
+              <Enquiry_form service="Remittance" />
             </div>
           </div>
           <div className="col-12 col-md-9">
@@ -65,7 +65,7 @@ function Footer_facilitation() {
                     <p>
                       <ul>
                         <li>
-                          Zenith Leisure Holidays Ltd, founded in the year 1997 is
+                          Zenith Global Business SDN. BHD., founded in the year 1997 is
                           one of India’s leading travel companies that offers an
                           array of services to its guests. Today, it is the most
                           trusted travel partner and has set itself up as a brand
@@ -93,7 +93,7 @@ function Footer_facilitation() {
                           guests from all over India.
                         </li>
                         <li>
-                        Zenith promises to maintain the standards of its services and create a relationship with its growing customer base for generations to come.
+                          Zenith promises to maintain the standards of its services and create a relationship with its growing customer base for generations to come.
                         </li>
                       </ul>
                     </p>

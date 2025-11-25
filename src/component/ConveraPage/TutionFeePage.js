@@ -35,9 +35,9 @@ function TutionFeePage() {
         <>
             <MetaTags>
                 <title>Pay your tuition fee to over 600 universities around the world</title>
-                <meta name="description" content='Send your money to abroad for student university tuition fees through Convera payments. Zenith Forex is best international foreign money transfer with easy pay no hassle. Pay your tuition fee to over 600 universities around the world' />
+                <meta name="description" content='Send your money to abroad for student university tuition fees through Convera payments. Zenith Global is best international foreign money transfer with easy pay no hassle. Pay your tuition fee to over 600 universities around the world' />
                 <meta name="keywords" content='Pay your tuition fee to over 600 universities around the world' />
-                <link rel="canonical" href="https://www.zenithforexonline.com/convera-payments-for-global-student" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/convera-payments-for-global-student" />
             </MetaTags>
             <Header />
             <div style={{ backgroundColor: "#1761AE" }} className='tutionFeeBgImage' id='convera-payment'>
@@ -50,7 +50,7 @@ function TutionFeePage() {
                             <h3 className="lp-heading fw-bold " style={{ color: 'yellow' }}> Think CONVERA Payment!
                                 {/* <img src="/Assets/images/convera_logo.svg" alt="logo " /> */}
 
-                                <br />Think Zenith Forex <br />Your Trusted Forex Partner</h3>
+                                <br />Think Zenith Global <br />Your Trusted Forex Partner</h3>
                             <ul className="list-unstyled  d-flex flex-column gap-3">
                                 {/* <li><span className="lp-icon">▶</span><b>  Best Rate in Forex Industry</b></li> */}
                                 {/* <li><span className="lp-icon">▶</span><b>  Same day swift copy</b></li>
@@ -113,7 +113,7 @@ function TutionFeePage() {
                     <LandingPageThesePurposes
                         imgpath="/image/Medical treatment.png"
                         title="Medical Treatment"
-                        description="Zenith Forex gives the best exchange rates for medical treatment abroad, facilitating 
+                        description="Zenith Global gives the best exchange rates for medical treatment abroad, facilitating 
                         seamless financial transactions through wire transfers and prepaid Forex cards."
                     />
                     <LandingPageThesePurposes
@@ -226,12 +226,12 @@ function TutionFeePage() {
                             <LandingPageChooseUs
                                 imgpath='/image/Ellipse 14.png'
                                 heading='Secure'
-                                content={["RBI Authorized Dealer-II", "Pan India Branch network", "Zenith Forex Online is known For building long -term, trustworthy relationship with clients."]}
+                                content={["RBI Authorized Dealer-II", "Pan India Branch network", "Zenith Global  is known For building long -term, trustworthy relationship with clients."]}
                             />
                             <LandingPageChooseUs
                                 imgpath='/image/Ellipse 15.png'
                                 heading='Contact Us'
-                                content={["onlineteam@zenithforex.com", "91-8448289666"]}
+                                content={["info@zenithglobal.com.my", "91-162083854"]}
                             />
 
                         </Row>

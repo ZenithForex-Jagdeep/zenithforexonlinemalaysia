@@ -139,7 +139,7 @@ function App() {
     return (
         <>
             <OrderProvider>
-                {
+                {/* {
                     Common2.appType === 1 && pathEnd != 'addenquiryform' ?
                         <marquee className="marq" bgcolor="Red" height="31px" direction="left" loop="">
                             <div className="geek2">
@@ -147,7 +147,7 @@ function App() {
                             </div>
                         </marquee>
                         : null
-                }
+                } */}
                 {
                     Common2.appType === 1 ?
                         <>
@@ -243,7 +243,7 @@ function App() {
                                 <Route exact path="/corporate_upload" element={<CorpmoduleTest />}></Route>
                                 {/* <Route exact path="/convera-testing" element={<ConveraPaymentTesting />}></Route> */}
                                 {/* <Route exact path="/otp" element={<VerifyMobileEmailOtp show={true} />}></Route> */}
-                                <Route exact path="/offer" element={<HtmlOfferPage />} />
+                                {/* <Route exact path="/offer" element={<HtmlOfferPage />} /> */}
                                 <Route exact path="/corp-rate" element={<CorporateRate />}></Route>
                                 <Route exact path="/meta-tags" element={<MasterMetaTags />}></Route>
                                 <Route exact path="/select-institute" element={<SelectInstitute />}></Route>

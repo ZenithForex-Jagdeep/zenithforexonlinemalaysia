@@ -263,7 +263,7 @@ function Remitter_details() {
                                     <Row>
                                         At the time of booking, please upload all the soft copies of the
                                         relevant documents or you can also email the documents at
-                                        online.manager@zenithforexonline.com with your order number in
+                                        online.manager@zenithglobal.com.my with your order number in
                                         subject line.
                                     </Row>
                                     <Row>&nbsp;</Row>
@@ -286,7 +286,7 @@ function Remitter_details() {
                     </Col>
                     <Col className="col-md-3 col-12 right_content">
                         <TraveldetailRight first='Amount' charge='Service Charge' nostro="Nostro Charges" remit={true}
-                            setTcsAmount={setTcsAmount}  tcsInfo={{ purpose: purpose, sourceOfFund: sourceOfFund, itr: itr }} />
+                            setTcsAmount={setTcsAmount} tcsInfo={{ purpose: purpose, sourceOfFund: sourceOfFund, itr: itr }} />
                         <div
                             className="px-2 pb-2 mb-2"
                             style={{ border: "5px solid lightgray" }}>

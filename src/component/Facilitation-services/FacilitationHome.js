@@ -37,7 +37,7 @@ function FacilitationHome() {
         <title>{metaTag?.title}</title>
         <meta name="description" content={metaTag?.description} />
         <meta name="Keywords" content={metaTag?.keywords} />
-        <link rel="canonical" href="https://www.zenithforexonline.com/facilitation-services" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/facilitation-services" />
 
       </MetaTags>
       <Header />

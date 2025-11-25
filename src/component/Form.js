@@ -82,9 +82,9 @@ function Forms(props) {
     setIndex(selectedIndex);
   };
 
-  const goToHtml = () => {
-    window.location.href = '/public/pages/html/offer.html';
-  };
+  // const goToHtml = () => {
+  //   window.location.href = '/public/pages/html/offer.html';
+  // };
 
 
   return (
@@ -93,7 +93,7 @@ function Forms(props) {
       <Carousel activeIndex={index} onSelect={() => handleSelect()}>
 
         <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src="/img/banner6.png" width="100%" loading="lazy" onClick={() => navigate('/offer')}
+          <img className="d-block w-100" src="/img/banner6.png" width="100%" loading="lazy" onClick={() => navigate('/')}
             alt="offer.img" />
         </Carousel.Item>
 
@@ -133,12 +133,12 @@ function Forms(props) {
             <BUY sell={true} type="SELL" />
           </Tab>
           {/*-----------------RELOAD---------------------  */}
-          <Tab
+          {/* <Tab
             className="mainForm"
             eventKey="RELOAD"
             title={<div className="form_icon"><img style={{ backgroundColor: "white", padding: "1px" }} src="/img/sell2.png" alt="" loading="lazy" /> RELOAD</div>}>
             <BUY reload={true} type="RELOAD" />
-          </Tab>
+          </Tab> */}
 
           {/* --------------------REMIT--------------------- */}
           <Tab

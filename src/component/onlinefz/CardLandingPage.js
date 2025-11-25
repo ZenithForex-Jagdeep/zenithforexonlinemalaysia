@@ -150,24 +150,24 @@ function CardLandingPage() {
 
     const faqItems = [
         {
-            question: 'How long does it take to process a money transfer through Zenith Forex Online?',
+            question: 'How long does it take to process a money transfer through Zenith Global ?',
             answer:
-                'The processing time for money transfers depends on the recipient\'s location, the amount being transferred, and the method of transfer. Typically, transfers can take anywhere from a few minutes to a few business days. However, Zenith Forex Online offers expedited transfer options for urgent transactions.',
+                'The processing time for money transfers depends on the recipient\'s location, the amount being transferred, and the method of transfer. Typically, transfers can take anywhere from a few minutes to a few business days. However, Zenith Global  offers expedited transfer options for urgent transactions.',
         },
         {
-            question: 'Are there any limits on the amount that can be transferred through Zenith Forex Online?',
+            question: 'Are there any limits on the amount that can be transferred through Zenith Global ?',
             answer:
-                'Yes, there are limits on the amount that can be transferred through Zenith Forex Online. These limits vary depending on the recipient\'s location, the currency being transferred, and the method of transfer. However, Zenith Forex Online offers higher transfer limits for verified customers and can customize transfer options for larger transactions.',
+                'Yes, there are limits on the amount that can be transferred through Zenith Global . These limits vary depending on the recipient\'s location, the currency being transferred, and the method of transfer. However, Zenith Global  offers higher transfer limits for verified customers and can customize transfer options for larger transactions.',
         },
         {
-            question: 'What currencies can I transfer through Zenith Forex Online?',
+            question: 'What currencies can I transfer through Zenith Global ?',
             answer:
-                'Zenith Forex Online supports a wide range of currencies for money transfers. You can transfer currencies such as US Dollars, Euros, British Pounds, Japanese Yen, Australian Dollars, and many others.',
+                'Zenith Global  supports a wide range of currencies for money transfers. You can transfer currencies such as US Dollars, Euros, British Pounds, Japanese Yen, Australian Dollars, and many others.',
         },
         {
             question: 'How do I track the status of my money transfer?',
             answer:
-                'Zenith Forex Online provides customers with a unique transaction ID that can be used to track the status of their money transfer. Customers can log into their Zenith Forex Online account to view the status of their transfer, including when it was sent, when it was received, and when it was completed. Additionally, Zenith Forex Online sends email or text notifications to customers throughout the transfer process.',
+                'Zenith Global  provides customers with a unique transaction ID that can be used to track the status of their money transfer. Customers can log into their Zenith Global  account to view the status of their transfer, including when it was sent, when it was received, and when it was completed. Additionally, Zenith Global  sends email or text notifications to customers throughout the transfer process.',
         },
     ];
 
@@ -175,15 +175,15 @@ function CardLandingPage() {
         <>
             {/* <MetaTags>
                 <title>Buy Forex Card Online, Multi-Currency Forex Card / Travel Card</title>
-                <meta name="description" content="Buy forex card online at the best rates from Zenith Forex Online. Book my multi currency forex card or travel card is best for students & cheapest forex card. Apply today" />
+                <meta name="description" content="Buy forex card online at the best rates from Zenith Global . Book my multi currency forex card or travel card is best for students & cheapest forex card. Apply today" />
                 <meta name="keywords" content="best forex card, prepaid card, travel card, multi currency card, forex exchange, reload card" />
-                <link rel="canonical" href="https://www.zenithforexonline.com/forex-card" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/forex-card" />
             </MetaTags> */}
             <MetaTags>
                 <title>{metaTag?.title}</title>
                 <meta name="description" content={metaTag?.description} />
                 <meta name="Keywords" content={metaTag?.keywords} />
-                <link rel="canonical" href="https://www.zenithforexonline.com/forex-card" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/forex-card" />
             </MetaTags>
             <Header />
             <div style={{ backgroundColor: "#1761AE" }}>
@@ -213,7 +213,7 @@ function CardLandingPage() {
                 </Container>
             </div>
             <div className='container'>
-                <h2 className='Purpose fw-bold pt-5 pb-4'>Zenith Forex Card For The Following Purpose</h2>
+                <h2 className='Purpose fw-bold pt-5 pb-4'>Zenith Global Card For The Following Purpose</h2>
                 <Row className="justify-content-center">
                     <LandingPageThesePurposes
                         imgpath="/image/Send Money to Family & Friends.png"
@@ -318,12 +318,12 @@ function CardLandingPage() {
                             <LandingPageChooseUs
                                 imgpath='/image/Ellipse 14.png'
                                 heading='Secure'
-                                content={["RBI Authorized Dealer-II", "Pan India Branch network", "Zenith Forex Online is known For building long -term, trustworthy relationship with clients."]}
+                                content={["RBI Authorized Dealer-II", "Pan India Branch network", "Zenith Global  is known For building long -term, trustworthy relationship with clients."]}
                             />
                             <LandingPageChooseUs
                                 imgpath='/image/Ellipse 15.png'
                                 heading='Contact Us'
-                                content={["onlineteam@zenithforex.com", "91-8448289666"]}
+                                content={["info@zenithglobal.com.my", "91-162083854"]}
                             />
 
                         </Row>
@@ -348,7 +348,7 @@ function CardLandingPage() {
                             <h6>Ludhiana</h6>
                             <p>
                                 <i className="bx bxs-quote-alt-left quote-icon-left"></i>I
-                                recently started using Zenith Forex Money Transfer service to
+                                recently started using Zenith Global Money Transfer service to
                                 send money to my daughter who is studying abroad. The process is
                                 easy to navigate and their exchange rates are very competitive.
                                 I appreciate their low transfer fees.
@@ -380,7 +380,7 @@ function CardLandingPage() {
                             <p>
                                 <i className="bx bxs-quote-alt-left quote-icon-left"></i> When
                                 my friend had a financial emergency while traveling abroad, I
-                                needed to send him money quickly. I decided to use Zenith Forex
+                                needed to send him money quickly. I decided to use Zenith Global
                                 Money Transfer service and was pleased with the speed and
                                 security of the transaction.
                                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
@@ -413,7 +413,7 @@ function CardLandingPage() {
                                 needed to send a large sum of money for a business transaction.
                                 While their exchange rates were competitive, the transfer
                                 process was reliable and secure. OverallI would consider
-                                exploring other services from Zenith Forex.
+                                exploring other services from Zenith Global.
                                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                             <ul className="list-unstyled d-flex mb-0">
@@ -472,7 +472,7 @@ function CardLandingPage() {
                             <p>
                                 <i className="bx bxs-quote-alt-left quote-icon-left"></i> When
                                 my friend had a financial emergency while traveling abroad, I
-                                needed to send him money quickly. I decided to use Zenith Forex
+                                needed to send him money quickly. I decided to use Zenith Global
                                 Money Transfer service and was pleased with the speed and
                                 security of the transaction.Overall, I was happy with the
                                 service.
@@ -506,7 +506,7 @@ function CardLandingPage() {
                                 needed to send a large sum of money for a business transaction.
                                 While their exchange rates were competitive, the transfer
                                 process was reliable and secure. it was a good experience, and I
-                                would consider exploring other services from Zenith Forex.
+                                would consider exploring other services from Zenith Global.
                                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                             <ul className="list-unstyled d-flex mb-0">
@@ -672,8 +672,8 @@ function CardLandingPage() {
                                     alt="kh"
                                 />
                                 <p className="into-text fs-8">
-                                    Zenith Forex online is online forex portal of  Zenith Leisure
-                                    Holidays Ltd. Zenith Leisure Holidays Ltd.  is amongst the
+                                    Zenith Global online is online forex portal of  Zenith Leisure
+                                    Holidays Ltd. Zenith Global Business SDN. BHD..  is amongst the
                                     largest RBI authorized ADII category Foreign  Exchange company in
                                     India. The Foreign Exchange division  which was launched in
                                     2013-14  was upgraded to Authorized Dealer Cat II in span of
@@ -699,11 +699,11 @@ function CardLandingPage() {
                                             Foreign Currency
                                         </span>
                                     </li>
-                                    <li className="pt-2">
+                                    {/* <li className="pt-2">
                                         <span style={{ cursor: "pointer" }} onClick={() => { navigate("/student-lounge"); window.scrollTo(0, 0) }} className="into-text">
                                             Student Lounge
                                         </span>
-                                    </li>
+                                    </li> */}
                                     <li className="pt-2">
                                         <span style={{ cursor: "pointer" }} onClick={() => { navigate("/gic"); window.scrollTo(0, 0) }} className="into-text">
                                             GIC
@@ -746,7 +746,7 @@ function CardLandingPage() {
                                     </li>
                                     <li className="pt-2">
                                         <span style={{ cursor: "pointer", color: "blue" }} className="into-text">
-                                            <a className="into-text" href="https://blog.zenithforexonline.com/">Blog</a>
+                                            <a className="into-text" href="https://blog.zenithglobal.com.my/">Blog</a>
                                         </span>
                                     </li>
                                     <li className="pt-2">
@@ -791,11 +791,11 @@ function CardLandingPage() {
                                 <p className="text-blue pt-2" style={{ cursor: "pointer" }} onClick={() => { navigate("/contact-us"); window.scrollTo(0, 0); }}>Contact Us</p>
                                 <p className="texth pt-2">
                                     <i className="texth far fa-envelope"></i> Email id:
-                                    <a className="into-text" href="mailto:onlineteam@zenithforex.com">onlineteam@zenithforex.com</a>
+                                    <a className="into-text" href="mailto:info@zenithglobal.com.my">info@zenithglobal.com.my</a>
                                 </p>
                                 <p className="texth pt-2">
                                     <i className="texth fas fa-phone-volume"></i> Phone:
-                                    <a className="into-text" href="tel:8448289666">+91-84482 89666</a>
+                                    <a className="into-text" href="tel:162083854">+60-162083854</a>
                                 </p>
                                 <p className="text-blue pt-2">
                                     Office Time <br />
@@ -810,14 +810,14 @@ function CardLandingPage() {
                         </div>
                         <div className="row py-2" style={{ borderTop: "1px solid grey" }}>
                             <div className="col-md-7 text-center">
-                                <span style={{ fontSize: "15px" }} className="into-text">
+                                {/* <span style={{ fontSize: "15px" }} className="into-text">
                                     Licence-Authorised Dealer- Category-II-No. KOL-ADII-0041-2023 Valid Till
                                     30th Nov 2025.
-                                </span>
+                                </span> */}
                             </div>
                             <div className="col-md-5 text-md-right text-center">
                                 <span style={{ fontSize: "15px" }} className="into-text">
-                                    Copyright © 2024. Zenith Forex
+                                    Copyright © 2024. Zenith Global
                                 </span>
                             </div>
                         </div>

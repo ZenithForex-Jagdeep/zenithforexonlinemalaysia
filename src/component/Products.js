@@ -15,12 +15,12 @@ function Products() {
               href="/currency-exchange"
               src="/img/currency1.png"
             />
-            <Product_child
+            {/* <Product_child
               header="Forex Card"
               text="Forex cards are a convenient, safe and smart way to carry and spend money while travelling abroad. Forex card is a pre-paid traveller’s card that is easy to use. It offers you the flexibility..."
               href="/forex-card"
               src="/img/card1.png"
-            />
+            /> */}
             <Product_child
               header="Remittance"
               text="Outward remittance in India can be described as a transfer of money in foreign exchange by a resident in India to a beneficiary situated outside the country (except Nepal and Bhutan)..."
@@ -33,18 +33,18 @@ function Products() {
               href="/facilitation-services"
               src="/img/facilitate1.png"
             />
-            <Product_child
+            {/* <Product_child
               header="Travel Insurance"
               text="Travelling can be fun but at the same time it can become challenging as well. So, before leaving for eventual travel, little planning certainly makes the trip smoother. Overseas Travel Insurance..."
               href="travel-insurance"
               src="/img/insurance1.png"
-            />
-            <Product_child
+            /> */}
+            {/* <Product_child
               header="Student Lounge"
               text="Studying abroad is a global dream of millions of students. As far as we all understand, education plays a very important role in every person's life today, and sometimes it..."
               href="/student-lounge"
               src="/img/slounge1.png"
-            />
+            /> */}
           </Row>
         </div>
       </section>

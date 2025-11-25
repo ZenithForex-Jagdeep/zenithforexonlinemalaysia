@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Header from '../Header'
 import "../../css/gallery.css";
@@ -19,9 +19,9 @@ function Gallery() {
         "keywords": ""
     })
     useEffect(() => {
-        if(onceRun){
+        if (onceRun) {
             return;
-        }else {
+        } else {
             Common.callApi(Common.apiGallery, ["getallgallery"], (result) => {
                 console.log(result);
                 setGallery(JSON.parse(result));
@@ -30,33 +30,33 @@ function Gallery() {
             Common.getMetaTagsById('Gallery Page', setMetaTag);
         }
     }, [onceRun]);
-  return (
-    <>
-          <MetaTags>
-              <title>{metaTag?.title}</title>
-              <meta name="description" content={metaTag?.description} />
-              <meta name="Keywords" content={metaTag?.keywords} />
-              <link rel="canonical" href="https://www.zenithforexonline.com/gallery" />
-          </MetaTags>
-        <Header/>
-        <div className="p-2 mb-4 footer_header">
-            <h3>GALLERY</h3>
-        </div>
-        <Container>
-            <Row className='gallery_section'>
-                {
-                    gallery.map(data => (
-                        <Col className='col-lg-4 col-6 mb-3'>
-                            <img src={"../upload/"+data.tg_photopath} alt="img" />
-                            <p className="text-center mt-1" style={{backgroundColor: "white"}}>{data.tg_desc}</p>
-                        </Col>
-                    ))
-                }
-            </Row>
-        </Container>
-        <Footer/>
-    </>
-  )
+    return (
+        <>
+            <MetaTags>
+                <title>{metaTag?.title}</title>
+                <meta name="description" content={metaTag?.description} />
+                <meta name="Keywords" content={metaTag?.keywords} />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/gallery" />
+            </MetaTags>
+            <Header />
+            <div className="p-2 mb-4 footer_header">
+                <h3>GALLERY</h3>
+            </div>
+            <Container>
+                <Row className='gallery_section'>
+                    {
+                        gallery.map(data => (
+                            <Col className='col-lg-4 col-6 mb-3'>
+                                <img src={"../upload/" + data.tg_photopath} alt="img" />
+                                <p className="text-center mt-1" style={{ backgroundColor: "white" }}>{data.tg_desc}</p>
+                            </Col>
+                        ))
+                    }
+                </Row>
+            </Container>
+            <Footer />
+        </>
+    )
 }
 
 export default Gallery

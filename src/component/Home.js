@@ -59,16 +59,16 @@ function Home() {
     //         if (href.length > 3) {
     //             setMetaTitle(`Online Currency Exchange in ${href[4]}`);
     //         } else {
-    //             setMetaTitle('Online Currency Exchange for Buying and Selling Foreign Currency in India | Zenith Forex');
+    //             setMetaTitle('Online Currency Exchange for Buying and Selling Foreign Currency in India | Zenith Global');
     //         }
-    //         setMetaDesc('Visit our website Online Currency Exchange for Buying and Selling Foreign Currency in India With Zenith Forex. Buy and sell foreign currency with competitive exchange rates. Discover the convenience of our secure platform for online money exchange near you.');
+    //         setMetaDesc('Visit our website Online Currency Exchange for Buying and Selling Foreign Currency in India With Zenith Global. Buy and sell foreign currency with competitive exchange rates. Discover the convenience of our secure platform for online money exchange near you.');
     //         setMetaKey("currency exchange, exchange foreign currency in India, money exchange near me, foreign currency exchange, exchange rate today, currency exchange rates, money exchange")
     //         setLinkRef(window.location.href.replace('%20', ' '));
     //     } else {
-    //         setMetaTitle('Get Zenith Forex Card, Buy & Sell Foreign Currency, Transfer Money Abroad Online');
-    //         setMetaDesc("Get Forex Card or Transfer Money Abroad Online from India. Zenith Forex is India's largets foreign exchange marketplace that allows easy currency exchange, IndusInd forex cards, international remittances, and travel insurance etc.");
+    //         setMetaTitle('Get Zenith Global Card, Buy & Sell Foreign Currency, Transfer Money Abroad Online');
+    //         setMetaDesc("Get Forex Card or Transfer Money Abroad Online from India. Zenith Global is India's largets foreign exchange marketplace that allows easy currency exchange, IndusInd forex cards, international remittances, and travel insurance etc.");
     //         setMetaKey("currency exchange, exchange foreign currency in India, money exchange near me, foreign currency exchange, exchange rate today, currency exchange rates, money exchange");
-    //         setLinkRef("https://zenithforexonline.com/");
+    //         setLinkRef("https://zenithglobal.com.my/");
     //     }
 
     // }
@@ -89,43 +89,43 @@ function Home() {
                     branch === "RUDRAPUR" || branch === "CHANDIGARH" || branch === "SILIGURI" || branch === "VADODARA" || branch === "VIJAYAVADA" ||
                     branch === "WARANGAL" || branch === "GUWAHATI") {
                     title = `Best Forex Foreign Currency Exchange ${href[4]}`;
-                    desc = `Zenith Forex Online is best forex foreign currency exchange in ${href[4]}. Zenith Forex online is a leading online money exchange or currency exchange market place from last 28 years. `;
+                    desc = `Zenith Global  is best forex foreign currency exchange in ${href[4]}. Zenith Global online is a leading online money exchange or currency exchange market place from last 28 years. `;
 
                 } else if (branch === "ANAND" || branch === "MUMBAI" || branch === "GURUGRAM" || branch === "JAIPUR" || branch === "KARNAL" ||
                     branch === "DELHI" || branch === "NOIDA" || branch === "PATNA" || branch === "PUNE" || branch === "RANCHI" ||
                     branch === "SALTLAKE" || branch === "SURAT" || branch === "INDORE" || branch === "JAMMU" || branch === "RAJKOT") {
                     title = `Best Forex Foreign Currency Exchange in ${href[4]}`;
-                    desc = `Zenith Forex Online is best forex foreign currency exchange in ${href[4]}. Zenith Forex online is a leading online money exchange or currency exchange market place from last 28 years. `;
+                    desc = `Zenith Global  is best forex foreign currency exchange in ${href[4]}. Zenith Global online is a leading online money exchange or currency exchange market place from last 28 years. `;
 
                 } else if (branch === "BHUBANESWAR" || branch === "VISAKHAPATNAM") {
                     title = `Forex Foreign Currency Exchange ${href[4]}`;
-                    desc = `Zenith Forex Online is best forex foreign currency exchange in ${href[4]}. Zenith Forex online is a leading online money exchange or currency exchange market place from last 28 years. `;
+                    desc = `Zenith Global  is best forex foreign currency exchange in ${href[4]}. Zenith Global online is a leading online money exchange or currency exchange market place from last 28 years. `;
                 } else if (branch === "JALANDHAR") {
                     title = `Forex Foreign Currency Exchange in ${href[4]}`;
-                    desc = `Zenith Forex Online is best forex foreign currency exchange in ${href[4]}. Zenith Forex online is a leading online money exchange or currency exchange market place from last 28 years. `;
+                    desc = `Zenith Global  is best forex foreign currency exchange in ${href[4]}. Zenith Global online is a leading online money exchange or currency exchange market place from last 28 years. `;
 
                 } else if (branch === "LUCKNOW%20AIRPORT" || branch === "RAJENDRA%20PLACE" || branch === "PETRAPOLE%20ARRIVAL" || branch === "PETRAPOLE%20DEPARTURE" ||
                     branch === "PIMPLE%20SAUDAGAR%20PUNE") {
                     let branch1 = href[4].replace("%20", " ");
                     title = `Foreign Currency Exchange in ${branch1}`;
-                    desc = `Zenith Forex Online is best forex foreign currency exchange in ${branch1}. Zenith Forex online is a leading online money exchange or currency exchange market place from last 28 years. `;
+                    desc = `Zenith Global  is best forex foreign currency exchange in ${branch1}. Zenith Global online is a leading online money exchange or currency exchange market place from last 28 years. `;
 
                 } else if (branch === "NJP%20RAILWAY") {
                     title = `Foreign Currency Exchange in New Jalpaiguri`;
-                    desc = `Zenith Forex Online is best forex foreign currency exchange in New Jalpaiguri Railway. Zenith Forex online is a leading online money exchange or currency exchange market place from last 28 years.`;
+                    desc = `Zenith Global  is best forex foreign currency exchange in New Jalpaiguri Railway. Zenith Global online is a leading online money exchange or currency exchange market place from last 28 years.`;
                 } else {
                     title = `Forex Foreign Currency Exchange ${href[4]}`;
-                    desc = `Zenith Forex Online is best forex foreign currency exchange in ${href[4]}. Zenith Forex online is a leading online money exchange or currency exchange market place from last 28 years. `;
+                    desc = `Zenith Global  is best forex foreign currency exchange in ${href[4]}. Zenith Global online is a leading online money exchange or currency exchange market place from last 28 years. `;
                 }
             } else {
-                title = 'Online Currency Exchange for Buying and Selling Foreign Currency in India | Zenith Forex';
-                desc = "Visit our website Online Currency Exchange for Buying and Selling Foreign Currency in India With Zenith Forex. Buy and sell foreign currency with competitive exchange rates. Discover the convenience of our secure platform for online money exchange near you.";
+                title = 'Online Currency Exchange for Buying and Selling Foreign Currency in India | Zenith Global';
+                desc = "Visit our website Online Currency Exchange for Buying and Selling Foreign Currency in India With Zenith Global. Buy and sell foreign currency with competitive exchange rates. Discover the convenience of our secure platform for online money exchange near you.";
                 linkRef = window.location.href.replace('%20', ' ');
             }
         } else {
-            title = "Get Zenith Forex Card, Buy & Sell Foreign Currency, Transfer Money Abroad Online";
-            desc = "Get Forex Card or Transfer Money Abroad Online from India. Zenith Forex is India's largets foreign exchange marketplace that allows easy currency exchange, IndusInd forex cards, international remittances, and travel insurance etc.";
-            linkRef = "https://www.zenithforexonline.com/";
+            title = "Get Zenith Global Card, Buy & Sell Foreign Currency, Transfer Money Abroad Online";
+            desc = "Get Forex Card or Transfer Money Abroad Online from India. Zenith Global is India's largets foreign exchange marketplace that allows easy currency exchange, IndusInd forex cards, international remittances, and travel insurance etc.";
+            linkRef = "https://www.zenithglobal.com.my/";
         }
         setMetaTitle(title);
         setMetaDesc(desc);
@@ -167,13 +167,13 @@ function Home() {
                 <Forms />
                 <About />
                 <Services tabFunc={changeTab} />
-                {barnchArray.includes(branchName) && <CurrencyExchangeBranch branchName={branchName} /> }
+                {barnchArray.includes(branchName) && <CurrencyExchangeBranch branchName={branchName} />}
                 {barnchArray.includes(branchName) && <WhyZenithForex branchName={branchName} />}
                 {barnchArray.includes(branchName) && <HowItWorks branchName={branchName} />}
                 {barnchArray.includes(branchName) && <BenefitsComponent branchName={branchName} />}
                 {barnchArray.includes(branchName) && <WhyChooseComponent branchName={branchName} />}
                 {barnchArray.includes(branchName) && <CityExchangeInfo branchName={branchName} />}
-                <WhyChose  branchName={branchName} />
+                <WhyChose branchName={branchName} />
                 {/* <About /> */}
                 <Products />
                 <Review />

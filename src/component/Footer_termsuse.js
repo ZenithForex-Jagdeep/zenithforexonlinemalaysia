@@ -23,12 +23,12 @@ function Footer_termsuse() {
         <title>{metaTag?.title}</title>
         <meta name="description" content={metaTag?.description} />
         <meta name="Keywords" content={metaTag?.keywords} />
-        <link rel="canonical" href="https://www.zenithforexonline.com/terms-of-use" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/terms-of-use" />
       </MetaTags>
-    {/* <MetaTags>
-        <link rel="canonical" href="https://www.zenithforexonline.com/terms-of-use" />
+      {/* <MetaTags>
+        <link rel="canonical" href="https://www.zenithglobal.com.my/terms-of-use" />
     </MetaTags> */}
-    <Header />
+      <Header />
       <div className="p-2 mb-5 footer_header">
         <div className="container">
           <h3>TERMS OF USE</h3>
@@ -38,7 +38,7 @@ function Footer_termsuse() {
         <div className="col-md-12 col-sm-12 col-xs-12">
           <p>
             This website at{" "}
-            <a href="www.zenithforexonline.com">www.zenithforexonline.com</a>
+            <a href="www.zenithglobal.com.my">www.zenithglobal.com.my</a>
             &nbsp;<strong>(&ldquo;Site&rdquo;)</strong> is owned and operated by
             Zenith Lesiure Holidays Ltd a company incorporated under the laws of
             India with its registered office at 68, Ballygunge Circular Road,

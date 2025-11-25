@@ -10,7 +10,7 @@ function FAQAccordion({ branchName }) {
   // -------- DEFAULT FAQ (if no matching branchName) ----------
   const defaultFAQItems = [
     {
-      question: 'How long does it take to process a money transfer through Zenith Forex Online?',
+      question: 'How long does it take to process a money transfer through Zenith Global ?',
       answer:
         'The processing time depends on transfer type, destination country, and method. It may take from a few minutes to a few business days.',
     },
@@ -20,14 +20,14 @@ function FAQAccordion({ branchName }) {
         'Yes, limits vary depending on destination and regulations. Verified customers can access higher limits.',
     },
     {
-      question: 'What currencies can I transfer through Zenith Forex Online?',
+      question: 'What currencies can I transfer through Zenith Global ?',
       answer:
         'Most major currencies including USD, EUR, GBP, JPY, AUD, and others are supported.',
     },
     {
       question: 'How do I track my money transfer status?',
       answer:
-        'A unique transaction ID is provided to track your transfer through your Zenith Forex Online account.',
+        'A unique transaction ID is provided to track your transfer through your Zenith Global  account.',
     },
   ];
 
@@ -40,7 +40,7 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "Where can I currency exchange in Hyderabad?",
-        answer: "Zenith Forex has a branch in Hyderabad. You can exchange currency at the branch or request home service by contacting our agent."
+        answer: "Zenith Global has a branch in Hyderabad. You can exchange currency at the branch or request home service by contacting our agent."
       },
       {
         question: "Do exchange rates change every day?",
@@ -56,11 +56,11 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "Can I exchange leftover foreign currency after returning to Hyderabad?",
-        answer: "Yes, you can sell leftover foreign currency to Zenith Forex and get Indian Rupees back."
+        answer: "Yes, you can sell leftover foreign currency to Zenith Global and get Indian Rupees back."
       },
       {
-        question: "Why should I choose Zenith Forex for money exchange in Hyderabad?",
-        answer: "Zenith Forex offers great rates, transparency, fast service, and provides forex cards and remittances in one place."
+        question: "Why should I choose Zenith Global for money exchange in Hyderabad?",
+        answer: "Zenith Global offers great rates, transparency, fast service, and provides forex cards and remittances in one place."
       },
       {
         question: "Can I convert leftover foreign currency back to Indian Rupees?",
@@ -82,7 +82,7 @@ function FAQAccordion({ branchName }) {
     },
     {
       question: "Can I get home delivery for currency exchange in Noida?",
-      answer: "Yes! Many forex providers in Noida, like Zenith Forex, offer doorstep delivery and pickup of foreign currency for your convenience."
+      answer: "Yes! Many forex providers in Noida, like Zenith Global, offer doorstep delivery and pickup of foreign currency for your convenience."
     },
     {
       question: "How can I find the best exchange rates in Noida?",
@@ -109,8 +109,8 @@ function FAQAccordion({ branchName }) {
       answer: "Yes, if you’re booking through an RBI-authorized and reputed forex company. Always check for company credentials and use secure payment options."
     },
     {
-      question: "Does Zenith Forex offer currency exchange in Noida?",
-      answer: "Absolutely! Zenith Forex provides fast, transparent, and competitive money exchange services in Noida — including home delivery, forex cards, and international remittance."
+      question: "Does Zenith Global offer currency exchange in Noida?",
+      answer: "Absolutely! Zenith Global provides fast, transparent, and competitive money exchange services in Noida — including home delivery, forex cards, and international remittance."
     }
     ],
 
@@ -173,7 +173,7 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "Where can I currency exchange in Delhi?",
-        answer: "You can exchange money at authorized Forex dealers, banks, and trusted companies like Zenith Forex located in Delhi."
+        answer: "You can exchange money at authorized Forex dealers, banks, and trusted companies like Zenith Global located in Delhi."
       },
       {
         question: "Do I need any documents for currency exchange in Delhi?",
@@ -193,7 +193,7 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "Is it safe to exchange currency at local markets or unlicensed dealers?",
-        answer: "No — always use RBI-authorized dealers like Zenith Forex to avoid fake notes or unfair rates."
+        answer: "No — always use RBI-authorized dealers like Zenith Global to avoid fake notes or unfair rates."
       },
       {
         question: "Can I get different currencies at one place in Delhi?",
@@ -205,14 +205,14 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "Can I plan online currency exchange in Delhi?",
-        answer: "Yes — many companies including Zenith Forex allow online booking, home delivery, and branch pickup options in Delhi."
+        answer: "Yes — many companies including Zenith Global allow online booking, home delivery, and branch pickup options in Delhi."
       }
     ],
 
     KOLKATA: [
       {
         question: "Where can I do currency exchange in Kolkata?",
-        answer: "You can exchange currency at authorized forex providers like Zenith Forex, banks, or RBI-approved money changers located across Kolkata."
+        answer: "You can exchange currency at authorized forex providers like Zenith Global, banks, or RBI-approved money changers located across Kolkata."
       },
       {
         question: "What documents do I need for currency exchange in Kolkata?",
@@ -220,7 +220,7 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "How can I get the best exchange rates in Kolkata?",
-        answer: "Compare rates online before visiting a branch. Zenith Forex, for instance, offers live market rates and transparent pricing with no hidden charges."
+        answer: "Compare rates online before visiting a branch. Zenith Global, for instance, offers live market rates and transparent pricing with no hidden charges."
       },
       {
         question: "Can I exchange Indian Rupees for multiple foreign currencies at once?",
@@ -228,7 +228,7 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "Is online currency exchange available in Kolkata?",
-        answer: "Yes, with Zenith Forex, you can order your foreign currency online and choose home delivery or branch pickup."
+        answer: "Yes, with Zenith Global, you can order your foreign currency online and choose home delivery or branch pickup."
       },
       {
         question: "How much foreign currency can I carry while travelling abroad?",
@@ -236,7 +236,7 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "Can I sell my leftover foreign currency after returning to India?",
-        answer: "Yes, you can easily sell unused foreign currency at authorised exchange counters or through online platforms like Zenith Forex."
+        answer: "Yes, you can easily sell unused foreign currency at authorised exchange counters or through online platforms like Zenith Global."
       },
       {
         question: "Are the exchange rates the same across all money changers in Kolkata?",
@@ -244,7 +244,7 @@ function FAQAccordion({ branchName }) {
       },
       {
         question: "Can I get foreign currency delivered to my home in Kolkata?",
-        answer: "Yes, many providers including Zenith Forex offer doorstep delivery for your convenience after completing KYC verification."
+        answer: "Yes, many providers including Zenith Global offer doorstep delivery for your convenience after completing KYC verification."
       },
       {
         question: "Is it better to use a Forex Card or cash for international travel?",

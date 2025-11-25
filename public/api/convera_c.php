@@ -375,7 +375,7 @@ class Convera {
                 if($row=mysqli_fetch_assoc($result)){
                     $msg = "<html>";
                     $msg = $msg . "<body>";
-                    $msg = $msg . "Query From CONVERA-Zenithforexonline.com :<br>
+                    $msg = $msg . "Query From CONVERA-zenithglobal.com.my :<br>
                                     <b>Name :</b> " . $row['ch_name'] . " <br>
                                     <b>Mobile Number :</b> " . $row['ch_mbile'] . " <br>
                                     <b>Email ID :</b> " . $row['ch_email'] . " <br>

@@ -822,8 +822,8 @@ function Forexdetail() {
                                             <Col>
                                                 At the time of booking, please upload all the soft
                                                 copies of the relevant documents or you can also email
-                                                the documents at online.manager@zenithforexonline.com or
-                                                Whatsapp us on 8448289666 with your order number in
+                                                the documents at online.manager@zenithglobal.com.my or
+                                                Whatsapp us on 162083854 with your order number in
                                                 subject line. As per norms, the proceeds will be handed
                                                 over over to the APPLICANT only
                                             </Col>

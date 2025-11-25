@@ -81,10 +81,10 @@ function Services(props) {
             </h2>
 
             <Service_child src="/img/s1.png" func={selectedTab} cn={true} text="Currency Exchange" />
-            <Service_child src="/img/s2.png" func={selectedTab} card={true} text="Forex Travel Cards" />
+            {/* <Service_child src="/img/s2.png" func={selectedTab} card={true} text="Forex Travel Cards" /> */}
             <Service_child src="/img/s3.png" func={selectedTab} remit={true} text="Money Transfer" />
             <Service_child src="/img/s4.png" func={selectedTab} facilitation={true} text="Facilitation Services" />
-            <Service_child src="/img/s5.png" func={selectedTab} callback={true} text="Travel Insurance" />
+            {/* <Service_child src="/img/s5.png" func={selectedTab} callback={true} text="Travel Insurance" /> */}
             <Service_child src="/img/s6.png" func={selectedTab} callback={true} text="Tours & Activities" />
           </div>
         </div>

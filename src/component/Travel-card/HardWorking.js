@@ -19,7 +19,7 @@ function HardWorking() {
                     </div>
                     <h4>Save Money</h4>
                     <p>
-                      Zenith Forex Online provides Forex cards helping in saving
+                      Zenith Global  provides Forex cards helping in saving
                       money by offering competitive exchange rates and avoiding
                       costly currency conversion fees.
                     </p>
@@ -30,7 +30,7 @@ function HardWorking() {
                     </div>
                     <h4>Save Time </h4>
                     <p>
-                      Zenith Forex Online provides Forex cards with enabled
+                      Zenith Global  provides Forex cards with enabled
                       quick and convenient transactions, saving time by
                       eliminating the need for searching for currency exchange
                       services.
@@ -43,7 +43,7 @@ function HardWorking() {
                     </div>
                     <h4>Send Securely</h4>
                     <p>
-                      Zenith Forex Online offers Forex cards that provide a safe
+                      Zenith Global  offers Forex cards that provide a safe
                       and secure way to carry money while traveling, minimizing
                       the risk of theft or loss associated with carrying cash.
                     </p>

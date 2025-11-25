@@ -124,11 +124,11 @@ function Header(props) {
                                         <ul className="text-right" style={{ listStyleType: "none", float: "right" }}>
                                             <li className="border-right font-weight-bold" style={{ color: "grey", visibility: "hidden" }}>
                                                 <i className="fas fa-phone-volume text-red" style={{ transform: "rotate(-45deg)" }}></i>
-                                                <a className="text-black" href="tel:8448289666">+91-8448 289666</a>
+                                                <a className="text-black" href="tel:162083854">+60-8448 289666</a>
                                             </li>
                                             <li className=" font-weight-bold" style={{ color: "grey" }}>
                                                 <i className="fas fa-phone-volume text-red" style={{ transform: "rotate(-45deg)" }}></i>
-                                                <a className="text-black" href="tel:8448289666">+91-84482 89666</a>
+                                                <a className="text-black" href="tel:162083854">+60-162083854</a>
                                             </li>
 
                                             <li>
@@ -155,28 +155,30 @@ function Header(props) {
                                                                 </Dropdown.Menu>
                                                             </Dropdown>
                                                             :
-                                                            <button type="button" className="btn btn-blue" id="login" onClick={() => gotoLogin()}>
+                                                            <>
+                                                                {/* <button type="button" className="btn btn-blue" id="login" onClick={() => gotoLogin()}>
                                                                 Login
-                                                            </button>
+                                                            </button> */}
+                                                            </>
                                                         }
                                                     </li>
                                             }
                                         </ul>
                                         <ul className="header_button" style={{ float: "right", listStyleType: "none" }}>
-                                            <li style={{ display: props.offerPage && 'none' }} onClick={() => navigate("/mega-forex-sale-offers")} className="header_btn mx-2">Offers</li>
+                                            {/* <li style={{ display: props.offerPage && 'none' }} onClick={() => navigate("/mega-forex-sale-offers")} className="header_btn mx-2">Offers</li> */}
                                             {/* <li onClick={() => navigate("/money-transfer-service")} className="header_btn mx-2">Send Money Abroad</li> */}
                                             <li onClick={() => navigate("/send-money-abroad")} className="header_btn mx-2">Send Money Abroad</li>
                                             <li onClick={() => navigate("/currency-exchange")} className="header_btn mx-2">Foreign Currency</li>
-                                            <li onClick={() => navigate("/forex-card")} className="header_btn mx-2">Travel Card</li>
+                                            {/* <li onClick={() => navigate("/forex-card")} className="header_btn mx-2">Travel Card</li>
                                             <li onClick={() => navigate("/convera-payments-for-global-student")} className="header_btn mx-2">Convera Payment</li>
                                             <li onClick={() => navigate("/gic")} className="header_btn mx-2">GIC</li>
                                             <li onClick={() => window.open("https://zenithforexonline.zetexa.com", "_blank")} className="header_btn mx-2">
                                                 International SIM
-                                            </li>
+                                            </li> */}
                                             {/* <li onClick={() => navigate("/")} className="header_btn mx-2">Travel</li> */}
-                                            <li className="header_btn mx-2">
+                                            {/* <li className="header_btn mx-2">
                                                 <a className="visa_btn" href="https://www.zenithholidays.com/" target="_blank">Travel</a>
-                                            </li>
+                                            </li> */}
                                             {/* <li className="header_btn mx-2">
                                                 <a className="visa_btn" href="http://mithilakalasansthan.com/Scholarship1.aspx" target="_blank">Scholarship</a>
                                             </li> */}
@@ -187,7 +189,7 @@ function Header(props) {
                                                         About Us
                                                     </Dropdown.Toggle>
                                                     <Dropdown.Menu style={{ display: whoWeAreShow ? "block" : "none" }}>
-                                                        <Dropdown.Item onClick={() => navigate("/mission-vision")}>Mission & Vision</Dropdown.Item >
+                                                        {/* <Dropdown.Item onClick={() => navigate("/mission-vision")}>Mission & Vision</Dropdown.Item > */}
                                                         <Dropdown.Item onClick={() => navigate("/about-us")}>Who we are</Dropdown.Item>
                                                         <Dropdown.Item onClick={() => navigate("/contact-us")}>Contact Us</Dropdown.Item>
                                                     </Dropdown.Menu>
@@ -205,7 +207,7 @@ function Header(props) {
                                             <>
                                                 {/* <div className=" font-weight-bold" style={{ color: "grey" }}> */}
                                                 <i className="fas fa-phone-volume text-red" style={{ transform: "rotate(-45deg)" }}></i>
-                                                <a className="text-black" href="tel:8448289666">+918448289666</a>&nbsp;
+                                                <a className="text-black" href="tel:162083854">+60162083854</a>&nbsp;
                                                 {/* </div> */}
                                                 <FontAwesomeIcon className="bars" onClick={() => setShowMenu(true)} icon={faBars} />
                                             </>
@@ -264,9 +266,9 @@ function Header(props) {
                                     </>
                                 ) : (
                                     <>
-                                        <button type="button" className="btn btn-blue" id="login" onClick={() => gotoLogin()}>
+                                        {/* <button type="button" className="btn btn-blue" id="login" onClick={() => gotoLogin()}>
                                             Login
-                                        </button>
+                                        </button> */}
                                     </>
                                 )}
 
@@ -303,7 +305,7 @@ function Header(props) {
                                 About Us
                             </Dropdown.Toggle>
                             <Dropdown.Menu style={{ display: whoWeAreShow ? "block" : "none" }}>
-                                <Dropdown.Item onClick={() => navigate("/mission-vision")}>Mission & Vision</Dropdown.Item>
+                                {/* <Dropdown.Item onClick={() => navigate("/mission-vision")}>Mission & Vision</Dropdown.Item> */}
                                 <Dropdown.Item onClick={() => navigate("/about-us")}>Who we are</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>

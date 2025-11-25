@@ -331,7 +331,7 @@ else {
 ?> -->
     <script>
         setTimeout(() => {
-            window.location.href = "https://www.zenithforexonline.com/order-history";
+            window.location.href = "https://www.zenithglobal.com.my/order-history";
         }, 8000);
     </script>
 </html>

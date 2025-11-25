@@ -25,7 +25,7 @@ function FAQ() {
         <title>{metaTag?.title}</title>
         <meta name="description" content={metaTag?.description} />
         <meta name="Keywords" content={metaTag?.keywords} />
-        <link rel="canonical" href="https://www.zenithforexonline.com/faq" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/faq" />
       </MetaTags>
       <Header />
       <div className="footer_header p-2 mb-5">
@@ -150,27 +150,27 @@ function FAQ() {
                 <br />
                 1 A "person resident in India" is defined in Section 2(v) of FEMA, 1999 as :
                 <ul>
-                    <li>(i) a person residing in India for more than one hundred and eighty-two days during the course of the preceding financial year but does not include-
+                  <li>(i) a person residing in India for more than one hundred and eighty-two days during the course of the preceding financial year but does not include-
+                    <ul>
+                      <li>(A) a person who has gone out of India or who stays outside India, in either case
                         <ul>
-                            <li>(A) a person who has gone out of India or who stays outside India, in either case
-                                <ul>
-                                    <li>(a) for or on taking up employment outside India, or</li>
-                                    <li>(b) for carrying on outside India a business or vocation outside India, or</li>
-                                    <li>(c) for any other purpose, in such circumstances as would indicate his intention to stay outside India for an uncertain period</li>
-                                </ul>
-                            </li>
-                            <li>(B) a person who has come to or stays in India, in either case, otherwise than
-                                <ul>
-                                    <li>(a) for or on taking up employment in India, or</li>
-                                    <li>(b) for carrying on in India a business or vocation in India, or</li>
-                                    <li>(c) for any other purpose, in such circumstances as would indicate his intention to stay in India for an uncertain period;</li>
-                                </ul>
-                            </li>
+                          <li>(a) for or on taking up employment outside India, or</li>
+                          <li>(b) for carrying on outside India a business or vocation outside India, or</li>
+                          <li>(c) for any other purpose, in such circumstances as would indicate his intention to stay outside India for an uncertain period</li>
                         </ul>
-                    </li>
-                <li>(ii) any person or body corporate registered or incorporated in India,</li>
-                <li>(iii) an office, branch or agency in India owned or controlled by a person resident outside India,</li>
-                <li>(iv) an office, branch or agency outside India owned or controlled by a person resident in India.</li>
+                      </li>
+                      <li>(B) a person who has come to or stays in India, in either case, otherwise than
+                        <ul>
+                          <li>(a) for or on taking up employment in India, or</li>
+                          <li>(b) for carrying on in India a business or vocation in India, or</li>
+                          <li>(c) for any other purpose, in such circumstances as would indicate his intention to stay in India for an uncertain period;</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>(ii) any person or body corporate registered or incorporated in India,</li>
+                  <li>(iii) an office, branch or agency in India owned or controlled by a person resident outside India,</li>
+                  <li>(iv) an office, branch or agency outside India owned or controlled by a person resident in India.</li>
                 </ul>
 
               </>

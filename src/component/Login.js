@@ -137,7 +137,7 @@ function Login() {
                     sessionStorage.userHRsrno = response.hrSrno;
                     sessionStorage.isEmailVisible = response.isEmailVisible;
                     sessionStorage.isRequestPaymentLink = response.isRequestPaymentLink;
-                    
+
                     setUserid("");
                     setPassword("");
                     if (orderObj !== null) {
@@ -546,7 +546,7 @@ function Login() {
                                             </form>
                                             {/* <div className="row mt-2 justify-content-center">
                                                 <div className="col" align="center">
-                                                    <FontAwesomeIcon icon={faEnvelope} />&nbsp;support@zenithforexonline.com&nbsp;&nbsp;
+                                                    <FontAwesomeIcon icon={faEnvelope} />&nbsp;support@zenithglobal.com.my&nbsp;&nbsp;
                                                     <FontAwesomeIcon icon={faMobileAlt} />&nbsp;8448 289666
                                                 </div>
                                             </div> */}

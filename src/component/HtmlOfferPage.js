@@ -15,7 +15,7 @@ function HtmlOfferPage() {
     return (
         <>
             <Header />
-            <div>
+            {/* <div>
                 <iframe
                     ref={iframeRef}
                     src="/pages/html/offer.html"
@@ -27,7 +27,7 @@ function HtmlOfferPage() {
                         overflow: 'hidden', // hides scrollbars
                     }}
                 ></iframe>
-            </div>
+            </div> */}
             <Footer />
         </>
     );

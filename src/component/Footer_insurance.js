@@ -7,7 +7,7 @@ function Footer_insurance() {
   return (
     <>
       <MetaTags>
-        <link rel="canonical" href="https://www.zenithforexonline.com/travel-insurance" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/travel-insurance" />
       </MetaTags>
       <Header />
       <div className="p-2 mb-5 footer_header">

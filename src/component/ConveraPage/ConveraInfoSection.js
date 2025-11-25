@@ -15,12 +15,12 @@ const cards = [
     },
     {
         heading: 'Globally Secure, Locally Reliable',
-        desc: 'Your payments are fully compliant and safeguarded by Convera’s worldwide standards, with Zenith Forex ensuring trusted local support in India.',
+        desc: 'Your payments are fully compliant and safeguarded by Convera’s worldwide standards, with Zenith Global ensuring trusted local support in India.',
         img: './Assets/images/converainfoi3.png'
     },
     {
         heading: 'Track with Ease, Support on Demand',
-        desc: ' Follow your payment in real time with Convera’s tracking tools, backed by responsive assistance from Zenith Forex whenever you need it.',
+        desc: ' Follow your payment in real time with Convera’s tracking tools, backed by responsive assistance from Zenith Global whenever you need it.',
         img: './Assets/images/converainfoi4.png'
     }
 ];
@@ -46,11 +46,11 @@ const SendMoneyAbroad = () => {
                     Fees the Smart Way with Convera & Us
                 </p> */}
                 <p className="mb-5">
-                    Zenith Forex has joined hands with Convera to make cross borders university fee payments faster, more affordable, and highly secure for Indian students and their families. With decades of expertise in global payments and a trusted presence in over 200+ countries and territories, Convera brings unmatched reliability and regulatory strength to Zenith Forex’s platform.
+                    Zenith Global has joined hands with Convera to make cross borders university fee payments faster, more affordable, and highly secure for Indian students and their families. With decades of expertise in global payments and a trusted presence in over 200+ countries and territories, Convera brings unmatched reliability and regulatory strength to Zenith Global’s platform.
                     Through this powerful integration, students and parents benefit from competitive exchange rates, quicker settlements, and complete transaction visibility—all through a seamless, user-friendly interface. This partnership reflects our commitment to empowering Indian students with a transparent, stress-free, and smarter way of paying international tuition fees.
 
                 </p>
-                <h2 className="pb-2">Why Choose Convera Through Zenith Forex?</h2>
+                <h2 className="pb-2">Why Choose Convera Through Zenith Global?</h2>
                 <div className="d-flex justify-content-center align-items-center gap-3">
                     {/* <button className="btn btn-light rounded-circle shadow">
                         &larr;

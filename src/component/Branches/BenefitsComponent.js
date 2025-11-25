@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // --- Data Layer (Moved outside component & refactored for icons) ---
 // This is more structured and "attractive" than a simple string array.
 const benefitsData = {
-    BENGALURU: {
-    title: "Benefits of Choosing Zenith Forex Online",
+  BENGALURU: {
+    title: "Benefits of Choosing Zenith Global ",
     points: [
       { icon: "💹", title: "Unbeatable Exchange Rates", desc: "We provide some of the best live forex rates in Bangalore, ensuring you always get maximum value." },
       { icon: "💻", title: "100% Online Process", desc: "Exchange your currency online without visiting any physical counter. Book, pay, and track your order from home." },
@@ -18,7 +18,7 @@ const benefitsData = {
     ]
   },
   HYDERABAD: {
-    title: "Key Benefits of Using Zenith Forex Online in Hyderabad",
+    title: "Key Benefits of Using Zenith Global  in Hyderabad",
     points: [
       { icon: "💹", title: "Transparent & Competitive Rates", desc: "We provide the best rates for currency exchange in Hyderabad with no hidden margins." },
       { icon: "🚚", title: "Doorstep Delivery", desc: "Receive your currency safely at your home, office, or preferred location in Hyderabad." },
@@ -30,7 +30,7 @@ const benefitsData = {
     ]
   },
   KOLKATA: {
-    title: "Benefits You Get with Zenith Forex Online in Kolkata",
+    title: "Benefits You Get with Zenith Global  in Kolkata",
     points: [
       { icon: "💸", title: "Best Value for Your Exchange", desc: "We deliver unmatched rates and lower margins, maximizing your foreign exchange value in Kolkata." },
       { icon: "💻", title: "Convenient & Hassle-Free", desc: "No need to visit crowded counters — everything is handled online and delivered to you." },
@@ -41,7 +41,7 @@ const benefitsData = {
     ]
   },
   NOIDA: {
-    title: "Benefits of Choosing Zenith Forex Online in Noida",
+    title: "Benefits of Choosing Zenith Global  in Noida",
     points: [
       { icon: "💸", title: "Unbeatable Exchange Rates", desc: "We offer the best possible value for your money for currency exchange in Noida." },
       { icon: "✨", title: "Hassle-Free Process", desc: "No waiting lines, no unnecessary paperwork, just a simple online process." },
@@ -54,7 +54,7 @@ const benefitsData = {
     ]
   },
   DELHI: {
-    title: "Benefits of Choosing Zenith Forex Online in Delhi",
+    title: "Benefits of Choosing Zenith Global  in Delhi",
     points: [
       { icon: "💸", title: "Unbeatable Exchange Rates", desc: "We offer the best possible value for your money for currency exchange in Delhi." },
       { icon: "✨", title: "Hassle-Free Process", desc: "No waiting lines, no unnecessary paperwork, just a simple online process." },
@@ -101,7 +101,7 @@ const BenefitsComponent = ({ branchName }) => {
     // Section with light background for visual separation
     <section className="container-fluid bg-light py-2 py-md-5">
       <div className="container">
-        
+
         {/* A stronger, centered title */}
         <h2 className="text-center display-5 mb-5" style={styles.mainTitle}>
           {data.title}
@@ -113,12 +113,12 @@ const BenefitsComponent = ({ branchName }) => {
             <div key={index} className="col-md-6 mb-4">
               {/* d-flex aligns icon and text */}
               <div className="d-flex align-items-start">
-                
+
                 {/* Icon Column */}
                 <div className="flex-shrink-0 me-3">
                   <span style={styles.icon}>{point.icon}</span>
                 </div>
-                
+
                 {/* Text Column */}
                 <div className="flex-grow-1">
                   <h5 style={styles.pointTitle}>{point.title}</h5>
