@@ -23,7 +23,7 @@ function Footer_terms() {
         <title>{metaTag?.title}</title>
         <meta name="description" content={metaTag?.description} />
         <meta name="Keywords" content={metaTag?.keywords} />
-      <link rel="canonical" href="https://www.zenithforexonline.com/terms-condition" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/terms-condition" />
       </MetaTags>
       {/* <MetaTags>
       </MetaTags> */}
@@ -43,7 +43,7 @@ function Footer_terms() {
           <div className="col-md-12 about-content">
             <ul>
               <li>
-                Zenithforexonline.com will not be responsible for any
+                zenithglobal.com.my will not be responsible for any
                 fraudulent&nbsp; transaction executed through us by forge or
                 unlawful information. User will be solely responsible for such
                 action and liable to regulatory actions
@@ -130,7 +130,7 @@ function Footer_terms() {
             </ul>
             <p>
               Please read these Terms and Conditions carefully before using the
-              Zenithforexonline.com website.Your access to and use of the
+              zenithglobal.com.my website.Your access to and use of the
               Service is conditioned on your acceptance of and compliance with
               these Terms. These Terms apply to all visitors, users and others
               who access or use the Service. By accessing or using the Service
@@ -169,10 +169,10 @@ function Footer_terms() {
             <p>
               Our Service may contain links to third-party web sites or services
               that are not owned or controlled by Zenith leisure Holidays Ltd.
-              Zenithforexonline.com has no control over, and assumes no
+              zenithglobal.com.my has no control over, and assumes no
               responsibility for, the content, privacy policies, or practices of
               any third party web sites or services. You further acknowledge and
-              agree that Zenithforexonline.com shall not be responsible or
+              agree that zenithglobal.com.my shall not be responsible or
               liable, directly or indirectly, for any damage or loss caused or
               alleged to be caused by or in connection with use of or reliance
               on any such content, goods or services available on or through any

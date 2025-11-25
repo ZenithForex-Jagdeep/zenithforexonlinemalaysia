@@ -8,20 +8,20 @@ const AboutConvera = () => {
                 <div style={styles.contentStyle}>
                     <img
                         src="../img/logo.png"
-                        alt="Zenith Forex Logo"
+                        alt="Zenith Global Logo"
                     />
-                    <h6 style={styles.titleStyle}>Zenith Forex Online – The Best International Money Transfer for Students</h6>
+                    <h6 style={styles.titleStyle}>Zenith Global  – The Best International Money Transfer for Students</h6>
                     <p style={styles.paragraphStyle}>
-                        Zenith Forex Online stands out as the top choice for students who need a reliable and efficient solution for international money transfer. Whether you're paying tuition fees, covering living expenses, or managing other overseas costs, Zenith Forex makes it easy to send money abroad with complete peace of mind.
+                        Zenith Global  stands out as the top choice for students who need a reliable and efficient solution for international money transfer. Whether you're paying tuition fees, covering living expenses, or managing other overseas costs, Zenith Global makes it easy to send money abroad with complete peace of mind.
                     </p>
                     <p style={styles.paragraphStyle}>
-                        We understand that students and parents want a process that’s simple, transparent, and secure. That’s why Zenith Forex offers competitive exchange rates, low service charges, and quick transaction times. With our streamlined online platform and dedicated support team, students can focus on their studies while we handle the complexities of global payments.
+                        We understand that students and parents want a process that’s simple, transparent, and secure. That’s why Zenith Global offers competitive exchange rates, low service charges, and quick transaction times. With our streamlined online platform and dedicated support team, students can focus on their studies while we handle the complexities of global payments.
                     </p>
                     <p style={styles.paragraphStyle}>
-                        Our strong partnership with trusted providers like Convera ensures that your money reaches its destination safely and on time. Zenith Forex also helps students comply with RBI guidelines, making sure each international money transfer is fully compliant and hassle-free.
+                        Our strong partnership with trusted providers like Convera ensures that your money reaches its destination safely and on time. Zenith Global also helps students comply with RBI guidelines, making sure each international money transfer is fully compliant and hassle-free.
                     </p>
                     <p style={styles.paragraphStyle}>
-                        Whether you're studying in the US, UK, Canada, Australia, or anywhere around the world, Zenith Forex is here to support your educational journey. Send money abroad with ease and confidence—choose Zenith Forex Online for secure and smart student remittances.
+                        Whether you're studying in the US, UK, Canada, Australia, or anywhere around the world, Zenith Global is here to support your educational journey. Send money abroad with ease and confidence—choose Zenith Global  for secure and smart student remittances.
                     </p>
                 </div>
             </div>

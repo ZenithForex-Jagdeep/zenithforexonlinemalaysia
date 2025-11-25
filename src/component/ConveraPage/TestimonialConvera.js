@@ -17,7 +17,7 @@ const testimonials = [
         image: "./Assets/images/profile.png",
     },
     {
-        text: "As a parent, sending money abroad can be stressful. With Zenith Forex, I was confident that my daughter’s university fees reached on time and safely. The transparency and support made the whole process hassle-free.",
+        text: "As a parent, sending money abroad can be stressful. With Zenith Global, I was confident that my daughter’s university fees reached on time and safely. The transparency and support made the whole process hassle-free.",
         author: "Rajesh M., Parent of an overseas student",
         image: "./Assets/images/profile.png",
     },

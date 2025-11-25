@@ -19,16 +19,16 @@ const Post = () => {
   const [content, setContent] = useState("");
   const [postTime, setPostTime] = useState("");
   const navigate = useNavigate();
-  
+
   const [myModal, setMyModal] = useState(false);
   const [modalText, setModalText] = useState({
     title: "",
     text: ""
   });
-  const {paramTitle } = useParams();
+  const { paramTitle } = useParams();
   const pathEnd = window.location.toString().split('/').pop()
-  const [pageTitle, setPageTitle] = useState("Zenith Forex Online Blog | Expert Analysis & Tips");
-  const [pageDesc, setPageDesc] = useState("Explore the latest updates, expert insights, and proven strategies in the world of forex with Zenith Forex Online's blog");
+  const [pageTitle, setPageTitle] = useState("Zenith Global  Blog | Expert Analysis & Tips");
+  const [pageDesc, setPageDesc] = useState("Explore the latest updates, expert insights, and proven strategies in the world of forex with Zenith Global 's blog");
 
 
   useEffect(() => {
@@ -63,7 +63,7 @@ const Post = () => {
         {/* <meta name="Keywords" content="Outward Remittance, send money abroad from India, Inward and Outward Remittance, transfer money abroad, money remittance, International Money Transfer" /> */}
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDesc} />
-        <meta property="og:image" content="https://www.zenithforexonline.com/img/GetBannerImage3.jpg" />
+        <meta property="og:image" content="https://www.zenithglobal.com.my/img/GetBannerImage3.jpg" />
       </MetaTags>
       <Header />
       <div className="px-3 py-3" style={{ backgroundColor: "rgb(238,238,238)" }}>

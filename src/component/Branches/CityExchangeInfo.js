@@ -6,7 +6,7 @@ const cityInfo = {
     BENGALURU: {
         heading: "Your Trusted Partner for Money Exchange in Bangalore",
         description:
-            "When it comes to money exchange in Bangalore, Zenith Forex Online stands out for its reliability, speed, and simplicity. We don’t just exchange currency — we build trust, one transaction at a time. So, skip the airport counters and confusing rate boards. Get the best rates, fast service, and complete peace of mind with Zenith Forex Online — Bangalore’s most dependable name in foreign exchange.",
+            "When it comes to money exchange in Bangalore, Zenith Global  stands out for its reliability, speed, and simplicity. We don’t just exchange currency — we build trust, one transaction at a time. So, skip the airport counters and confusing rate boards. Get the best rates, fast service, and complete peace of mind with Zenith Global  — Bangalore’s most dependable name in foreign exchange.",
         subHeading: "Ready to Get Started",
         points: [
             "Best Live Rates",
@@ -15,13 +15,13 @@ const cityInfo = {
             "Secure Online Process",
             "No Hidden Charges",
         ],
-        footer: "Exchange Smart. Exchange Safe. Exchange with Zenith Forex Online.",
+        footer: "Exchange Smart. Exchange Safe. Exchange with Zenith Global .",
     },
 
     HYDERABAD: {
         heading: "Start Your Currency Exchange in Hyderabad Today",
         description:
-            "Choose Zenith Forex Online for hassle-free, transparent, and secure currency exchange in Hyderabad.",
+            "Choose Zenith Global  for hassle-free, transparent, and secure currency exchange in Hyderabad.",
         points: [
             "Best Live Rates",
             "RBI-Compliant & Safe",
@@ -29,26 +29,26 @@ const cityInfo = {
             "Wide Range of Currencies",
             "Transparent & Reliable",
         ],
-        footer: "Exchange Smart. Exchange Safe. Exchange with Zenith Forex Online.",
+        footer: "Exchange Smart. Exchange Safe. Exchange with Zenith Global .",
     },
 
     NOIDA: {
         heading: "Book Your Currency Exchange in Noida Now",
         description:
-            "Stop overpaying and start saving with Zenith Forex Online — your most reliable choice for money exchange in Noida.",
+            "Stop overpaying and start saving with Zenith Global  — your most reliable choice for money exchange in Noida.",
         points: [
             "Real-Time Exchange Rates",
             "RBI-Authorized Transactions",
             "Home Delivery Across Noida",
             "Safe, Transparent, and Fast",
         ],
-        footer: "Zenith Forex Online — Smart, Simple & Secure Money Exchange in Noida.", // Added footer for consistency
+        footer: "Zenith Global  — Smart, Simple & Secure Money Exchange in Noida.", // Added footer for consistency
     },
 
     DELHI: {
         heading: "Ready to Currency Exchange in Delhi?",
         description:
-            "Start your currency exchange in Delhi journey with Zenith Forex Online today — where every transaction is transparent, every rate is fair, and every delivery is on time.",
+            "Start your currency exchange in Delhi journey with Zenith Global  today — where every transaction is transparent, every rate is fair, and every delivery is on time.",
         points: [
             "Best Live Forex Rates",
             "Doorstep Delivery",
@@ -57,7 +57,7 @@ const cityInfo = {
             "No Hidden Charges",
         ],
         footer:
-            "Zenith Forex Online — Smart, Simple & Secure Money Exchange in Delhi.",
+            "Zenith Global  — Smart, Simple & Secure Money Exchange in Delhi.",
     },
 };
 

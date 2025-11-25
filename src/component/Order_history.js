@@ -176,7 +176,7 @@ function Order_history() {
 				Common.callApi(Common.apiBuyDetails, ["getbankdetails", orderno], (result) => {
 					let resp = JSON.parse(result);
 					msg = encode(resp.accnum + "^" + resp.bankcode + "^" + resp.ifsc + "^" + uid + "^" + orderno);
-					window.location.href = "https://www.zenithforexonline.com/api/paynow.php?d=" + msg;
+					window.location.href = "https://www.zenithglobal.com.my/api/paynow.php?d=" + msg;
 				}
 				);
 			} else {
@@ -184,7 +184,7 @@ function Order_history() {
 				Common.callApi(Common.apiBuyDetails, ["getDetailsPaytm", orderno], (result) => {
 					let response = JSON.parse(result);
 					msg = encode(response.name + "^" + response.userid + "^" + response.amount + "^" + response.mobile + "^" + orderno);
-					window.location.href = "https://www.zenithforexonline.com/api/paytmpaynow.php?d=" + msg;
+					window.location.href = "https://www.zenithglobal.com.my/api/paytmpaynow.php?d=" + msg;
 				}
 				);
 			}

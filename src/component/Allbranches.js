@@ -53,13 +53,13 @@ function Allbranches() {
     return (
         <>
             {/* <MetaTags>
-                <link rel="canonical" href="https://www.zenithforexonline.com/BranchList" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/BranchList" />
         </MetaTags> */}
             <MetaTags>
                 <title>{metaTag?.title}</title>
                 <meta name="description" content={metaTag?.description} />
                 <meta name="Keywords" content={metaTag?.keywords} />
-                <link rel="canonical" href="https://www.zenithforexonline.com/BranchList" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/BranchList" />
             </MetaTags>
             <Header />
             <Row>

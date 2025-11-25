@@ -167,7 +167,7 @@ function Offer() {
                 <title>{metaTag?.title}</title>
                 <meta name="description" content={metaTag?.description} />
                 <meta name="Keywords" content={metaTag?.keywords} />
-                <link rel="canonical" href="https://www.zenithforexonline.com/mega-forex-sale-offers" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/mega-forex-sale-offers" />
 
             </MetaTags>
 
@@ -762,7 +762,7 @@ function Offer() {
                                     Terms of Use.</h5>
 
                                 <ul>
-                                    <li> Customer(s)&quot; shall mean a customer of Zenith Forex who buys or reloads a
+                                    <li> Customer(s)&quot; shall mean a customer of Zenith Global who buys or reloads a
                                         forex card or transfers money abroad under LRS during the offer period
                                         commencing from 1 Auguest 2024 to and ending on 20 th  Auguest
                                         2024 (both days inclusive)</li>
@@ -776,7 +776,7 @@ function Offer() {
 
                                     <li>No other cashback/discount offers can be clubbed with this offer</li>
                                     {/* <li>You need to apply the promo code for online purchase while registration In case of
-                                        an offline order, Zenith Forex will apply the promo code if you are eligible for the
+                                        an offline order, Zenith Global will apply the promo code if you are eligible for the
                                         MEGAFOREXSALE .</li> */}
                                     <li>This Offer is brought to you <a style={{ textDecoration: "none", color: "white", fontWeight: "700" }}
                                         href="zenithforexonline.in">zenithforexonline.in</a> , India's first and the

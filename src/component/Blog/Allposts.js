@@ -13,9 +13,9 @@ const Allposts = () => {
     const navigate = useNavigate();
     const [onceRun, setOnceRun] = useState(false);
     const [blogPosts, setBlogPosts] = useState([]);
-    const [pageTitle, setPageTitle] = useState("Zenith Forex Online Blog | Expert Analysis & Tips");
-    //Zenith Forex Online Blog | Expert Analysis & Tips
-    const [pageDesc, setPageDesc] = useState("Explore the latest updates, expert insights, and proven strategies in the world of forex with Zenith Forex Online's blog");
+    const [pageTitle, setPageTitle] = useState("Zenith Global  Blog | Expert Analysis & Tips");
+    //Zenith Global  Blog | Expert Analysis & Tips
+    const [pageDesc, setPageDesc] = useState("Explore the latest updates, expert insights, and proven strategies in the world of forex with Zenith Global 's blog");
 
     const sid = sessionStorage.getItem("sessionId");
 
@@ -30,9 +30,9 @@ const Allposts = () => {
         }
     }, [onceRun])
 
-    const onClickSeeMore = (postno, title,desc) => {
-        let lTitle=title.toLowerCase();
-        setPageDesc(desc.toString().substring(0,150))
+    const onClickSeeMore = (postno, title, desc) => {
+        let lTitle = title.toLowerCase();
+        setPageDesc(desc.toString().substring(0, 150))
         setPageTitle(title);
         navigate(`/blog/${lTitle.replaceAll(' ', '-')}`);
     }
@@ -45,8 +45,8 @@ const Allposts = () => {
                 <meta name="description" content={pageDesc} />
                 {/* <meta name="Keywords" content="Outward Remittance, send money abroad from India, Inward and Outward Remittance, transfer money abroad, money remittance, International Money Transfer" /> */}
                 <meta property="og:title" content={pageTitle} />
-                <meta property="og:description" content={pageDesc}/>
-                <meta property="og:image" content="https://www.zenithforexonline.com/img/GetBannerImage3.jpg" />
+                <meta property="og:description" content={pageDesc} />
+                <meta property="og:image" content="https://www.zenithglobal.com.my/img/GetBannerImage3.jpg" />
             </MetaTags>
             <Header />
             <div className="p-2 footer_header">
@@ -68,11 +68,11 @@ const Allposts = () => {
                                             </Col>
                                         </Row>
                                         <Row>
-                                            <Col><h4 style={{ cursor: "pointer", color: "#2f2e7e" }} onClick={() => onClickSeeMore(post.bl_srno, post.bl_title,post.bl_content)}>{post.bl_title}</h4></Col>
+                                            <Col><h4 style={{ cursor: "pointer", color: "#2f2e7e" }} onClick={() => onClickSeeMore(post.bl_srno, post.bl_title, post.bl_content)}>{post.bl_title}</h4></Col>
                                         </Row>
                                         <Row>
                                             <Col>
-                                                <p>{parse(post.bl_content.substring(0, 350))} <span onClick={() => onClickSeeMore(post.bl_srno, post.bl_title,post.bl_content)} style={{ color: "blue", cursor: "pointer" }}>(See more...)</span></p>
+                                                <p>{parse(post.bl_content.substring(0, 350))} <span onClick={() => onClickSeeMore(post.bl_srno, post.bl_title, post.bl_content)} style={{ color: "blue", cursor: "pointer" }}>(See more...)</span></p>
                                             </Col>
                                         </Row>
                                     </Col>
@@ -81,7 +81,7 @@ const Allposts = () => {
                                             <>
                                             </> : <>
                                                 <Col className="col-md-8 col-12">
-                                                    <span style={{ cursor: "pointer" }} onClick={() => onClickSeeMore(post.bl_srno, post.bl_title,post.bl_content)}>
+                                                    <span style={{ cursor: "pointer" }} onClick={() => onClickSeeMore(post.bl_srno, post.bl_title, post.bl_content)}>
                                                         <img src={"../upload/" + post.bl_posturl} alt="" />
                                                     </span>
                                                 </Col>

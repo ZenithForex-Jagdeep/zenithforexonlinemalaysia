@@ -32,16 +32,16 @@ function CurrencyNoteHome() {
   return (
     <div>
       {/* <MetaTags>
-        <title>Online Currency Exchange for Buying and Selling Foreign Currency in India | Zenith Forex</title>
-        <meta name="description" content="Visit our website Online Currency Exchange for Buying and Selling Foreign Currency in India With Zenith Forex. Buy and sell foreign currency with competitive exchange rates. Discover the convenience of our secure platform for online money exchange near you." />
+        <title>Online Currency Exchange for Buying and Selling Foreign Currency in India | Zenith Global</title>
+        <meta name="description" content="Visit our website Online Currency Exchange for Buying and Selling Foreign Currency in India With Zenith Global. Buy and sell foreign currency with competitive exchange rates. Discover the convenience of our secure platform for online money exchange near you." />
         <meta name="keywords" content="currency exchange, exchange foreign currency in India, money exchange near me, foreign currency exchange, exchange rate today, currency exchange rates, money exchange" />
-        <link rel="canonical" href="https://www.zenithforexonline.com/currency-exchange" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/currency-exchange" />
       </MetaTags> */}
       <MetaTags>
         <title>{metaTag?.title}</title>
         <meta name="description" content={metaTag?.description} />
         <meta name="Keywords" content={metaTag?.keywords} />
-        <link rel="canonical" href="https://www.zenithforexonline.com/currency-exchange" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/currency-exchange" />
       </MetaTags>
       <Header />
       <CurrencyHero></CurrencyHero>

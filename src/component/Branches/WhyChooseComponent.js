@@ -4,27 +4,27 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // --- Data Layer (EXACTLY AS PROVIDED BY THE USER - Moved outside component) ---
 const whyChooseData = {
     BENGALURU: {
-        title: "Why Bangalore Prefers Zenith Forex Online",
+        title: "Why Bangalore Prefers Zenith Global ",
         paragraphs: [
-            "Bangalore, India’s technology and business capital, deserves a currency exchange service that matches its pace and professionalism. Zenith Forex Online was built to simplify forex for every kind of user — tech professionals, corporate travelers, students, families, and entrepreneurs.",
+            "Bangalore, India’s technology and business capital, deserves a currency exchange service that matches its pace and professionalism. Zenith Global  was built to simplify forex for every kind of user — tech professionals, corporate travelers, students, families, and entrepreneurs.",
             "Our online-first model, fast service, and transparent rates have made us a trusted choice for currency exchange in Bangalore. Whether you’re traveling to the US for work, studying in Canada, or attending a conference in Europe — we ensure your money is converted quickly and efficiently."
         ],
         // image: "https://via.placeholder.com/500x350/F8F9FA/000000?text=Bangalore+Forex" // Placeholder image
     },
 
     HYDERABAD: {
-        title: "Why Hyderabad Residents Trust Zenith Forex Online",
+        title: "Why Hyderabad Residents Trust Zenith Global ",
         paragraphs: [
-            "Hyderabad is a city full of globetrotters — from IT professionals flying overseas to students moving abroad for higher studies. With such a dynamic environment, travelers need a forex partner that is reliable, fast, and transparent. Zenith Forex Online fits the bill perfectly, combining live rates, secure processes, and doorstep convenience to meet the needs of everyone in Hyderabad.",
-            "Whether it’s cash currency for travel, a forex card, or reconverting leftover foreign currency, Zenith Forex Online ensures your transactions are handled professionally, quickly, and safely."
+            "Hyderabad is a city full of globetrotters — from IT professionals flying overseas to students moving abroad for higher studies. With such a dynamic environment, travelers need a forex partner that is reliable, fast, and transparent. Zenith Global  fits the bill perfectly, combining live rates, secure processes, and doorstep convenience to meet the needs of everyone in Hyderabad.",
+            "Whether it’s cash currency for travel, a forex card, or reconverting leftover foreign currency, Zenith Global  ensures your transactions are handled professionally, quickly, and safely."
         ],
         // image: "https://via.placeholder.com/500x350/F8F9FA/000000?text=Hyderabad+Forex" // Placeholder image
     },
 
     KOLKATA: {
-        title: "Why Kolkata Residents Prefer Zenith Forex Online",
+        title: "Why Kolkata Residents Prefer Zenith Global ",
         paragraphs: [
-            "Kolkata is a city of travelers, students, builders, and dreamers. Whether you're heading abroad for higher studies, work, or leisure, you deserve a <strong>money exchange in Kolkata</strong> partner you can rely on. Zenith Forex Online brings you:",
+            "Kolkata is a city of travelers, students, builders, and dreamers. Whether you're heading abroad for higher studies, work, or leisure, you deserve a <strong>money exchange in Kolkata</strong> partner you can rely on. Zenith Global  brings you:",
         ],
         bullets: [
             "Speed and convenience that fits your lifestyle",
@@ -32,23 +32,23 @@ const whyChooseData = {
             "A trustworthy, local presence with global capability"
         ],
         extra:
-            "Skip the queues at airport counters or unverified street exchangers. With Zenith Forex Online, your currency needs are handled professionally, securely, and transparently — every time. Start your currency exchange in Kolkata today with Zenith Forex Online. Get real-time rates, complete the process online, and receive your foreign currency without hassle. Exchange smart. Exchange safe. Exchange with Zenith Forex Online.",
+            "Skip the queues at airport counters or unverified street exchangers. With Zenith Global , your currency needs are handled professionally, securely, and transparently — every time. Start your currency exchange in Kolkata today with Zenith Global . Get real-time rates, complete the process online, and receive your foreign currency without hassle. Exchange smart. Exchange safe. Exchange with Zenith Global .",
         // image: "https://via.placeholder.com/500x350/F8F9FA/000000?text=Kolkata+Forex" // Placeholder image
     },
 
     DELHI: {
-        title: "Why People in Delhi Choose Zenith Forex Online",
+        title: "Why People in Delhi Choose Zenith Global ",
         bullets: [
-            "Convenience Meets Trust — No standing in lines or searching for local money changers. Just open Zenith Forex Online, get live rates, and complete your order in minutes.",
+            "Convenience Meets Trust — No standing in lines or searching for local money changers. Just open Zenith Global , get live rates, and complete your order in minutes.",
             "Dedicated Delhi Support Team — Our Delhi-based support team ensures your queries are answered fast — whether it’s documentation, tracking, or rate clarification.",
             "Multiple Forex Services Under One Roof — Beyond just currency exchange in Delhi, we also offer forex cards, outward remittance, and currency buy-back services for returning travelers.",
             "Safe Transactions, Guaranteed — We combine RBI authorization with modern technology to make every transaction fully secure and traceable.",
-            "Transparent, Honest & Hassle-Free — With Zenith Forex Online, there are no hidden margins, no inflated prices, and no confusion. We’ve built our reputation on clarity, fairness, and reliability."
+            "Transparent, Honest & Hassle-Free — With Zenith Global , there are no hidden margins, no inflated prices, and no confusion. We’ve built our reputation on clarity, fairness, and reliability."
         ],
         // image: "https://via.placeholder.com/500x350/F8F9FA/000000?text=Delhi+Forex" // Placeholder image
     },
     NOIDA: {
-        title: "When it comes to <strong>currency exchange in Noida</strong, no one understands your needs better than Zenith Forex Online.",
+        title: "When it comes to <strong>currency exchange in Noida</strong, no one understands your needs better than Zenith Global .",
         bullets: [
             "<strong>Thousands of happy customers<strong> across Noida and NCR",
             "<strong>Real-time rates and transparent transactions<strong> every single time.",
@@ -149,7 +149,7 @@ const WhyChooseComponent = ({ branchName }) => {
             <div className="container">
 
                 {/* Centered, strong title */}
-                <h2 className="text-center display-5 mb-5" style={styles.mainTitle} dangerouslySetInnerHTML={{ __html: data?.title }}/>
+                <h2 className="text-center display-5 mb-5" style={styles.mainTitle} dangerouslySetInnerHTML={{ __html: data?.title }} />
 
                 <div className="row align-items-center justify-content-center">
 
@@ -193,7 +193,7 @@ const WhyChooseComponent = ({ branchName }) => {
                                             </svg>
                                         </span>
                                         <span className="text-dark" style={styles.merriweather} dangerouslySetInnerHTML={{ __html: item }} />
-                                            {/* {item} */}
+                                        {/* {item} */}
                                         {/* </span> */}
                                     </div>
                                 ))}

@@ -105,7 +105,7 @@ function Review_details() {
 				msg = encode(
 					nameForPaytmGate + "^" + idForPaytmGate + "^" + amountForPaytmGate + "^" + mobileForPaytmGate + "^" + sessionStorage.getItem("orderno")
 				);
-				window.location.href = "https://www.zenithforexonline.com/api/paytmpaynow.php?d=" + msg;
+				window.location.href = "https://www.zenithglobal.com.my/api/paytmpaynow.php?d=" + msg;
 				//window.location.href = "http://localhost:8005/api/paytmpaynow.php?d=" + msg;
 			}
 		}

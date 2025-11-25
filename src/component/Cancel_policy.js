@@ -24,7 +24,7 @@ function Cancel_policy() {
         <title>{metaTag?.title}</title>
         <meta name="description" content={metaTag?.description} />
         <meta name="Keywords" content={metaTag?.keywords} />
-        <link rel="canonical" href="https://www.zenithforexonline.com/cancellation-policy" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/cancellation-policy" />
       </MetaTags>
       <Header />
       <div className="footer_header p-2 mb-5">

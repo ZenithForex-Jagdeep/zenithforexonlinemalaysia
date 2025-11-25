@@ -28,8 +28,8 @@ function isLocalHost() {
 export const paymentGateway = (prm, gateway) => {
     var url = "";
     if (!isLocalHost()) {
-        if (gateway === "CASHFREE") url = "https://www.zenithforexonline.com/api/paynow_1.php?d=" + prm;
-        else if (gateway === "RAZORPAY") url = "https://www.zenithforexonline.com/api/paynow_rp.php?d=" + prm;
+        if (gateway === "CASHFREE") url = "https://www.zenithglobal.com.my/api/paynow_1.php?d=" + prm;
+        else if (gateway === "RAZORPAY") url = "https://www.zenithglobal.com.my/api/paynow_rp.php?d=" + prm;
     } else {
         if (gateway === "CASHFREE") url = "http://localhost:8005/api/paynow_1.php?d=" + prm;
         else if (gateway === "RAZORPAY") url = "http://localhost:8005/api/paynow_rp.php?d=" + prm;
@@ -113,7 +113,7 @@ export const GST_RATE = .18;
 export const TCS_RATE = 20;
 export const SERVICE_CHARGE = 100;
 export const TCS_THRESHOLD = 1000000;
-export function calcTcs(purpose, sourceOfFund,isITR, earlierForex, thisForex) {
+export function calcTcs(purpose, sourceOfFund, isITR, earlierForex, thisForex) {
     console.log(purpose, sourceOfFund, earlierForex, thisForex);
     let tcsRate = TCS_RATE;
     const tcsThreshold = TCS_THRESHOLD;
@@ -123,7 +123,7 @@ export function calcTcs(purpose, sourceOfFund,isITR, earlierForex, thisForex) {
     if (earlierForex + thisForex > tcsThreshold) {
         // MEDICAL TREATMENT ABROAD(6), OVERSEAS EDUCATION(3)
         if (purpose == 6 || purpose == 3) {
-            if (sourceOfFund === "L" && isITR==='Y') {
+            if (sourceOfFund === "L" && isITR === 'Y') {
                 tcsRate = 0;
             } else {
                 tcsRate = 5;
@@ -600,15 +600,15 @@ const getMetaTagList = async () => {
     return list;
 }
 
-export const getMetaTagsById = async(id, setMetaTags)=> {
-    const list= await getMetaTagList();
+export const getMetaTagsById = async (id, setMetaTags) => {
+    const list = await getMetaTagList();
     console.log(id)
     console.log(list)
     let metaTag = list.find((item) => item.page === id);
     console.log(metaTag)
-    if (metaTag){
+    if (metaTag) {
         setMetaTags(metaTag);
-    }else{
+    } else {
         setMetaTags({
             "id": 0,
             "page": "",

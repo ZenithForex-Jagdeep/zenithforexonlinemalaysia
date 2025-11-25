@@ -78,13 +78,13 @@ function Contact_us() {
     return (
         <>
             {/* <MetaTags>
-                <link rel="canonical" href="https://www.zenithforexonline.com/contact-us" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/contact-us" />
             </MetaTags> */}
             <MetaTags>
                 <title>{metaTag?.title}</title>
                 <meta name="description" content={metaTag?.description} />
                 <meta name="Keywords" content={metaTag?.keywords} />
-                <link rel="canonical" href="https://www.zenithforexonline.com/contact-us" />
+                <link rel="canonical" href="https://www.zenithglobal.com.my/contact-us" />
             </MetaTags>
             <Dialog show={myModal} text={modalText} callback={true} onHide={() => setMyModal(false)} />
             <Header />
@@ -152,7 +152,7 @@ function Contact_us() {
 
                             <h3 className="fw-bold py-2">Send Mail to</h3>
 
-                            <h6 className="py-1">onlineteam@zenithforex.com</h6>
+                            <h6 className="py-1">onlineteam@zenithglobal.com.my</h6>
 
                             {/* <h6 className="py-1">Support@zenithfinserv.com</h6> */}
                         </div>

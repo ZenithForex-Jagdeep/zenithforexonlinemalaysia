@@ -6,4 +6,4 @@ Disallow: /branch-list
 
 Allow: /
 
-Sitemap: https://www.zenithforexonline.com/sitemap.xml
+Sitemap: https://www.zenithglobal.com.my/sitemap.xml

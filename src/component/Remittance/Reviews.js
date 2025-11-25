@@ -44,7 +44,7 @@ function Reviews() {
               <h6>Ludhiana</h6>
               <p>
                 <i className="bx bxs-quote-alt-left quote-icon-left"></i>I
-                recently started using Zenith Forex Money Transfer service to
+                recently started using Zenith Global Money Transfer service to
                 send money to my daughter who is studying abroad. The process is
                 easy to navigate and their exchange rates are very competitive.
                 I appreciate their low transfer fees.
@@ -76,7 +76,7 @@ function Reviews() {
               <p>
                 <i className="bx bxs-quote-alt-left quote-icon-left"></i> When
                 my friend had a financial emergency while traveling abroad, I
-                needed to send him money quickly. I decided to use Zenith Forex
+                needed to send him money quickly. I decided to use Zenith Global
                 Money Transfer service and was pleased with the speed and
                 security of the transaction.
                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
@@ -109,7 +109,7 @@ function Reviews() {
                 needed to send a large sum of money for a business transaction.
                 While their exchange rates were competitive, the transfer
                 process was reliable and secure. OverallI would consider
-                exploring other services from Zenith Forex.
+                exploring other services from Zenith Global.
                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <ul className="list-unstyled d-flex mb-0">
@@ -168,7 +168,7 @@ function Reviews() {
               <p>
                 <i className="bx bxs-quote-alt-left quote-icon-left"></i> When
                 my friend had a financial emergency while traveling abroad, I
-                needed to send him money quickly. I decided to use Zenith Forex
+                needed to send him money quickly. I decided to use Zenith Global
                 Money Transfer service and was pleased with the speed and
                 security of the transaction.Overall, I was happy with the
                 service.
@@ -202,7 +202,7 @@ function Reviews() {
                 needed to send a large sum of money for a business transaction.
                 While their exchange rates were competitive, the transfer
                 process was reliable and secure. it was a good experience, and I
-                would consider exploring other services from Zenith Forex.
+                would consider exploring other services from Zenith Global.
                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <ul className="list-unstyled d-flex mb-0">

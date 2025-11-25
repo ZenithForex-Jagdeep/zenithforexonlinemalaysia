@@ -5,7 +5,7 @@ import * as Common from "../Common";
 // --- Data Layer (Added 'icon' property for visuals) ---
 const howItWorksData = {
     DELHI: {
-        title: "How Currency Exchange Works at Zenith Forex Online",
+        title: "How Currency Exchange Works at Zenith Global ",
         data: [
             {
                 icon: "🔍",
@@ -35,7 +35,7 @@ const howItWorksData = {
         ]
     },
     NOIDA: {
-        title: "How to Book Currency Exchange in Noida with Zenith Forex Online",
+        title: "How to Book Currency Exchange in Noida with Zenith Global ",
         data: [
             {
                 icon: "🔍",
@@ -269,7 +269,7 @@ const HowItWorks = ({ branchName }) => {
 
                                     {/* Description */}
                                     <p className="text-secondary" style={styles.stepDescription} dangerouslySetInnerHTML={{ __html: item.description }}>
-                                       
+
                                     </p>
                                 </div>
                             </div>

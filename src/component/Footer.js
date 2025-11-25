@@ -23,7 +23,7 @@ function Footer() {
       />
       <section className="py-4" style={{ background: "#2f2e7e" }}>
         <div className="container">
-          <Row style={{ marginBottom: '10px' ,gap:'25px'}} >
+          <Row style={{ marginBottom: '10px', gap: '25px' }} >
             <Col className="col-md-2 hvcentre">
               <img
                 className="footerLogo mx-auto hvcentre"
@@ -67,7 +67,7 @@ function Footer() {
           <div className="row">
             <div className="col-md-3 pb-4">
               <p className="text-white fs-8">
-                Zenith Forex online is online forex portal of  Zenith Leisure
+                Zenith Global online is online forex portal of  Zenith Leisure
                 Holidays Ltd. Zenith Leisure Holidays Ltd.  is amongst the
                 largest RBI authorized ADII category Foreign  Exchange company in
                 India. The Foreign Exchange division  which was launched in
@@ -84,11 +84,11 @@ function Footer() {
                     Remittance
                   </span>
                 </li>
-                <li className="pt-2">
+                {/* <li className="pt-2">
                   <span style={{ cursor: "pointer" }} onClick={() => { navigate("/forex-card"); window.scrollTo(0, 0) }} className="text-white">
                     Forex Cards
                   </span>
-                </li>
+                </li> */}
                 <li className="pt-2">
                   <span style={{ cursor: "pointer" }} onClick={() => { navigate("/currency-exchange"); window.scrollTo(0, 0) }} className="text-white">
                     Foreign Currency
@@ -99,11 +99,11 @@ function Footer() {
                     Student Lounge
                   </span>
                 </li>
-                <li className="pt-2">
+                {/* <li className="pt-2">
                   <span style={{ cursor: "pointer" }} onClick={() => { navigate("/gic"); window.scrollTo(0, 0) }} className="text-white">
                     GIC
                   </span>
-                </li>
+                </li> */}
                 <li className="pt-2">
                   <span style={{ cursor: "pointer" }} onClick={() => { navigate("/facilitation-services"); window.scrollTo(0, 0) }} className="text-white">
                     Facilitation Services
@@ -119,16 +119,16 @@ function Footer() {
                     Clients
                   </span>
                 </li>
-                <li className="pt-2">
+                {/* <li className="pt-2">
                   <span style={{ cursor: "pointer" }} onClick={() => { navigate("/mission-vision"); window.scrollTo(0, 0) }} className="text-white">
                     Mission & Vision
                   </span>
-                </li>
-                <li className="pt-2">
+                </li> */}
+                {/* <li className="pt-2">
                   <a href="/convera-payments-for-global-student" className="text-white">
                     Convera Payment
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="col-md-3 col-6">
@@ -146,7 +146,7 @@ function Footer() {
                 </li>
                 <li className="pt-2">
                   <span style={{ cursor: "pointer", color: "white" }} className="text-white">
-                    <a className="text-white" href="https://www.zenithforexonline.com/blog-posts">Blog</a> {/* https://blog.zenithforexonline.com/ */}
+                    <a className="text-white" href="https://www.zenithglobal.com.my/blog-posts">Blog</a> {/* https://blog.zenithglobal.com.my/ */}
                   </span>
                 </li>
                 <li className="pt-2">
@@ -191,7 +191,7 @@ function Footer() {
               <p className="text-white pt-2" style={{ cursor: "pointer" }} onClick={() => { navigate("/contact-us"); window.scrollTo(0, 0); }}>Contact Us</p>
               <p className="text-white pt-2">
                 <i className="text-red far fa-envelope"></i> Email id:
-                <a className="text-white" href="mailto:onlineteam@zenithforex.com">onlineteam@zenithforex.com</a>
+                <a className="text-white" href="mailto:onlineteam@zenithglobal.com.my">onlineteam@zenithglobal.com.my</a>
               </p>
               <p className="text-white pt-2">
                 <i className="text-red fas fa-phone-volume"></i> Phone:
@@ -217,7 +217,7 @@ function Footer() {
             </div>
             <div className="col-md-5 text-md-right text-center">
               <span style={{ fontSize: "15px" }} className="text-white">
-                Copyright © 2025. Zenith Forex
+                Copyright © 2025. Zenith Global
               </span>
             </div>
           </div>

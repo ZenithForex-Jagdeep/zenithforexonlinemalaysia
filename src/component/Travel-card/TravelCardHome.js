@@ -19,11 +19,11 @@ function TravelCardHome() {
     <div>
       <MetaTags>
         <title>Buy Forex Card Online, Multi-Currency Forex Card / Travel Card</title>
-        <meta name="description" content="Buy forex card online at the best rates from Zenith Forex Online. Book my multi currency forex card or travel card is best for students & cheapest forex card. Apply today" />
-        {/* <title>Get the Best Deals on Multi-Currency Prepaid Travel Cards & Forex Cards | Zenith Forex</title> */}
-        {/* <meta name="description" content="Get the Best Deals on Multi-Currency Prepaid Travel Cards & Forex Cards With Zenith Forex. Available exclusive discounts on forex travel cards." /> */}
+        <meta name="description" content="Buy forex card online at the best rates from Zenith Global . Book my multi currency forex card or travel card is best for students & cheapest forex card. Apply today" />
+        {/* <title>Get the Best Deals on Multi-Currency Prepaid Travel Cards & Forex Cards | Zenith Global</title> */}
+        {/* <meta name="description" content="Get the Best Deals on Multi-Currency Prepaid Travel Cards & Forex Cards With Zenith Global. Available exclusive discounts on forex travel cards." /> */}
         <meta name="keywords" content="best forex card, prepaid card, travel card, multi currency card, forex exchange, reload card" />
-        <link rel="canonical" href="https://www.zenithforexonline.com/forex-card" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/forex-card" />
       </MetaTags>
       <Header />
       <TrevalCardHero></TrevalCardHero>

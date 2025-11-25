@@ -19,7 +19,7 @@ function HardWorkingPepole() {
                     </div>
                     <h4>Save Money</h4>
                     <p>
-                      Zenith Forex Online offers competitive exchange rates and
+                      Zenith Global  offers competitive exchange rates and
                       low fees for its money transfer services, making it an
                       affordable option for hardworking people who need to
                       transfer funds regularly.
@@ -31,7 +31,7 @@ function HardWorkingPepole() {
                     </div>
                     <h4>Save Time </h4>
                     <p>
-                      Zenith Forex Online provides fast and reliable money
+                      Zenith Global  provides fast and reliable money
                       transfer services. Hardworking people can transfer funds
                       quickly and easily, even if they are in different parts of
                       the world.
@@ -44,7 +44,7 @@ function HardWorkingPepole() {
                     </div>
                     <h4>Send Securely</h4>
                     <p>
-                      Zenith Forex Online takes security seriously and utilizes
+                      Zenith Global  takes security seriously and utilizes
                       advanced encryption and security protocols to protect your
                       money and personal information, ensuring that your
                       transactions are safe & secure.

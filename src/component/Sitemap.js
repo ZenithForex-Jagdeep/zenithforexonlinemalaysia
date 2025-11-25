@@ -24,7 +24,7 @@ function Sitemap() {
         <title>{metaTag?.title}</title>
         <meta name="description" content={metaTag?.description} />
         <meta name="Keywords" content={metaTag?.keywords} />
-        <link rel="canonical" href="https://www.zenithforexonline.com/site-map" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/site-map" />
       </MetaTags>
       <Header />
       <div className="p-2 footer_header">

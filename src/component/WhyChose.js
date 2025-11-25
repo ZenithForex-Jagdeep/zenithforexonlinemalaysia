@@ -52,7 +52,7 @@ function ServiceOffer({ branchName }) {
           {/* Main Title - Centered for impact */}
           <div className="col-12 col-lg-10">
             <h2 className="text-center mb-5" style={{ ...styles.merriweather, ...styles.mainTitle }}>
-              Why Choose Zenithforexonline.com
+              Why Choose zenithglobal.com.my
             </h2>
           </div>
 
@@ -84,7 +84,7 @@ function ServiceOffer({ branchName }) {
           {/*
                     <div className="col-12 col-lg-10 mt-4">
                         <p className="text-secondary text-center" style={{ letterSpacing: ".5px" }}>
-                             Zenith Forex Online is one of the India’s leading online marketplace that allows easy currency exchange, forex cards, International Remittances, and travel insurance, etc. Here, you will get suitable way to convert currency online at fair charges...
+                             Zenith Global  is one of the India’s leading online marketplace that allows easy currency exchange, forex cards, International Remittances, and travel insurance, etc. Here, you will get suitable way to convert currency online at fair charges...
                         </p>
                     </div>
                     */}

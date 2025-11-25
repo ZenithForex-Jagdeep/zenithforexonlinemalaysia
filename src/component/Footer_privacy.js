@@ -23,9 +23,9 @@ function Footer_privacy() {
         <title>{metaTag?.title}</title>
         <meta name="description" content={metaTag?.description} />
         <meta name="Keywords" content={metaTag?.keywords} />
-        <link rel="canonical" href="https://www.zenithforexonline.com/privacy-policy" />
+        <link rel="canonical" href="https://www.zenithglobal.com.my/privacy-policy" />
       </MetaTags>
-    <Header />
+      <Header />
       <div className="p-2 mb-4 footer_header">
         <div className="container">
           <h3>PRIVACY POLICY</h3>

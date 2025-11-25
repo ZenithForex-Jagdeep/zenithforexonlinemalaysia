@@ -133,12 +133,12 @@ function Forms(props) {
             <BUY sell={true} type="SELL" />
           </Tab>
           {/*-----------------RELOAD---------------------  */}
-          <Tab
+          {/* <Tab
             className="mainForm"
             eventKey="RELOAD"
             title={<div className="form_icon"><img style={{ backgroundColor: "white", padding: "1px" }} src="/img/sell2.png" alt="" loading="lazy" /> RELOAD</div>}>
             <BUY reload={true} type="RELOAD" />
-          </Tab>
+          </Tab> */}
 
           {/* --------------------REMIT--------------------- */}
           <Tab

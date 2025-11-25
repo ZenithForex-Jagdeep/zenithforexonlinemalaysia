@@ -15,7 +15,7 @@ const MoneyTransfer = () => {
       has increased the need for reliable and efficient
       money transfer services to enable individuals to send
       and receive funds across borders easily.`,
-      para2: `Zenith Forex Online offers a range of key features
+      para2: `Zenith Global  offers a range of key features
       that make it easy and convenient to transfer funds
       across borders. From speed and security to
       affordability and ease of use, these services are an

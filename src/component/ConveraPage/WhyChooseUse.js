@@ -6,7 +6,7 @@ import { Row } from "react-bootstrap";
 const WhyChooseUs = () => {
     const points = [
         { heading: 'Powered by Convera Global Pay ', text: 'Leverage a world-class platform for reliable and efficient international payments.' },
-        { heading: 'Trusted Service ', text: ' Zenith Forex brings years of expertise and personalized support to every transaction.' },
+        { heading: 'Trusted Service ', text: ' Zenith Global brings years of expertise and personalized support to every transaction.' },
         { heading: 'Fast & Secure Transfers ', text: 'Enjoy peace of mind with encrypted, compliant, and quick money transfers.' },
         { heading: 'Global Coverage ', text: 'Send funds to over 200 countries and territories using multiple currencies with ease.' },
     ];
@@ -27,10 +27,10 @@ const WhyChooseUs = () => {
                 {/* Right Section with Text and Points */}
                 <div className="col-md-6">
                     <h1 className="fw-bold">
-                        Why Choose <span className="text-primary">Zenith Forex US?</span>
+                        Why Choose <span className="text-primary">Zenith Global US?</span>
                     </h1>
                     <p className="text">
-                        Zenith Forex is your trusted partner for seamless international money transfers, offering expert solutions through Convera Global Pay. With a commitment to security, speed, and convenience, Zenith Forex ensures that every transaction is handled with professionalism and care. Whether you're managing personal remittances or business payments, our integration with Convera Global Pay allows you to send money worldwide with confidence and ease.
+                        Zenith Global is your trusted partner for seamless international money transfers, offering expert solutions through Convera Global Pay. With a commitment to security, speed, and convenience, Zenith Global ensures that every transaction is handled with professionalism and care. Whether you're managing personal remittances or business payments, our integration with Convera Global Pay allows you to send money worldwide with confidence and ease.
                     </p>
 
                     <div className="d-flex flex-column gap-3 mt-4">

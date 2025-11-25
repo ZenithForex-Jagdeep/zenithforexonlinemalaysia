@@ -19,13 +19,13 @@ function Footer_about() {
 	return (
 		<>
 			{/* <MetaTags>
-				<link rel="canonical" href="https://www.zenithforexonline.com/about-us" />
+				<link rel="canonical" href="https://www.zenithglobal.com.my/about-us" />
 			</MetaTags> */}
 			<MetaTags>
 				<title>{metaTag?.title}</title>
 				<meta name="description" content={metaTag?.description} />
 				<meta name="Keywords" content={metaTag?.keywords} />
-				<link rel="canonical" href="https://www.zenithforexonline.com/about-us" />
+				<link rel="canonical" href="https://www.zenithglobal.com.my/about-us" />
 			</MetaTags>
 			<Header />
 			<div className="footer_header p-2 mb-5">
@@ -41,10 +41,11 @@ function Footer_about() {
 				</div>
 				<div className="col-md-12 col-sm-12 col-xs-12 about-content">
 					<p>
-						<strong>Zenith Leisure Holidays Limited.</strong> is the Third Largest Foreign Exchange company in India licensed as <strong>Authorized Dealer Cat II by Reserve Bank of India</strong> .
-						Since its inception  in 1997 the Company has expanded its network to <strong>68 Branches(including 15 Airport Counters )</strong> in India and expanding its footprint to other potential and strategic locations
-					</p>
+						<strong>Zenith Global Business SDN. BHD.</strong> was incorporated in 2008 in the state of Penang, serving primarily retail customers in the northern region of Malaysia. After more than a decade, in August 2020, MTSB relocated to Selangor House in the Masjid India area, and then in September 2022 to No. 1006, Selangor Mansion, Jalan Masjid India.					</p>
 					<p>
+						Currently, we are one of the leaders in money exchange services, licensed under Money Service Business by Bank Negara Malaysia ("BNM").
+					</p>
+					{/* <p>
 						We have strong leadership team having a mindset to innovate, incubate and drive Business aligned with clients product and service requirements navigating towards customer delight.
 						We have maintained customer facing approach and curated products suiting their comfort and convenience.
 					</p>
@@ -63,7 +64,7 @@ function Footer_about() {
 					</p>
 					<p>
 						Our fast adaption to Tech driven solutions have made us more agile , efficient and cost effective enabling us to offer the Best Rate of Exchange to our esteemed customers.
-					</p>
+					</p> */}
 					{/* <p>
             Zenith Leisure Holidays Ltd. is one of the fastest growing company
             and is amongst the <strong>Top 5 AD Cat II companies</strong>
