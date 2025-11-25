@@ -58,7 +58,7 @@ function Footer_terms() {
                   <span style={{ color: "#0000cd" }}>support@zenithforex.com</span>
                 </u>
                 <a href="mailto:feedback@zenithforex.com%20">&nbsp;</a>
-                /8448289666).
+                /162083854).
               </li>
               <li>
                 Deliveries only to the area covered by Zenith Lesiure Holida
@@ -72,7 +72,7 @@ function Footer_terms() {
                   data-placement="top"
                   data-toggle="tooltip"
                   href="#"
-                  title="However if due to Technical reasons rates could not be updated as per market movements.Final call on to execute the orders shall rest with Zenith Leisure Holidays Ltd and user can’t force Zenith to take forward the transactions.!"
+                  title="However if due to Technical reasons rates could not be updated as per market movements.Final call on to execute the orders shall rest with Zenith Global Business SDN. BHD. and user can’t force Zenith to take forward the transactions.!"
                 >
                   {" "}
                 </a>
@@ -106,7 +106,7 @@ function Footer_terms() {
                 Holidays.
               </li>
               <li>
-                Zenith Leisure Holidays Ltd. would deliver currencies wherever
+                Zenith Global Business SDN. BHD.. would deliver currencies wherever
                 they have servicing Branch
               </li>
               <li>
@@ -116,7 +116,7 @@ function Footer_terms() {
                   data-placement="top"
                   data-toggle="tooltip"
                   href="#"
-                  title="Orders can be placed online but customer must be present at the time of  executing transactions so that customer Due Diligence is properly carried out by Zenith leisure Holidays representative."
+                  title="Orders can be placed online but customer must be present at the time of  executing transactions so that customer Due Diligence is properly carried out by Zenith Global Business SDN. BHD. representative."
                 >
                   {" "}
                 </a>
@@ -168,7 +168,7 @@ function Footer_terms() {
             </div>
             <p>
               Our Service may contain links to third-party web sites or services
-              that are not owned or controlled by Zenith leisure Holidays Ltd.
+              that are not owned or controlled by Zenith Global Business SDN. BHD..
               zenithglobal.com.my has no control over, and assumes no
               responsibility for, the content, privacy policies, or practices of
               any third party web sites or services. You further acknowledge and
@@ -250,7 +250,7 @@ function Footer_terms() {
                   support@zenithforex.com
                 </span>
               </u>
-              &nbsp;or call 8448289666.
+              &nbsp;or call 162083854.
             </p>
           </div>
         </div>

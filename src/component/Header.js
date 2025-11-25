@@ -124,11 +124,11 @@ function Header(props) {
                                         <ul className="text-right" style={{ listStyleType: "none", float: "right" }}>
                                             <li className="border-right font-weight-bold" style={{ color: "grey", visibility: "hidden" }}>
                                                 <i className="fas fa-phone-volume text-red" style={{ transform: "rotate(-45deg)" }}></i>
-                                                <a className="text-black" href="tel:8448289666">+91-8448 289666</a>
+                                                <a className="text-black" href="tel:162083854">+60-8448 289666</a>
                                             </li>
                                             <li className=" font-weight-bold" style={{ color: "grey" }}>
                                                 <i className="fas fa-phone-volume text-red" style={{ transform: "rotate(-45deg)" }}></i>
-                                                <a className="text-black" href="tel:8448289666">+91-84482 89666</a>
+                                                <a className="text-black" href="tel:162083854">+60-84482 89666</a>
                                             </li>
 
                                             <li>
@@ -155,9 +155,11 @@ function Header(props) {
                                                                 </Dropdown.Menu>
                                                             </Dropdown>
                                                             :
-                                                            <button type="button" className="btn btn-blue" id="login" onClick={() => gotoLogin()}>
+                                                            <>
+                                                                {/* <button type="button" className="btn btn-blue" id="login" onClick={() => gotoLogin()}>
                                                                 Login
-                                                            </button>
+                                                            </button> */}
+                                                            </>
                                                         }
                                                     </li>
                                             }
@@ -205,7 +207,7 @@ function Header(props) {
                                             <>
                                                 {/* <div className=" font-weight-bold" style={{ color: "grey" }}> */}
                                                 <i className="fas fa-phone-volume text-red" style={{ transform: "rotate(-45deg)" }}></i>
-                                                <a className="text-black" href="tel:8448289666">+918448289666</a>&nbsp;
+                                                <a className="text-black" href="tel:162083854">+60162083854</a>&nbsp;
                                                 {/* </div> */}
                                                 <FontAwesomeIcon className="bars" onClick={() => setShowMenu(true)} icon={faBars} />
                                             </>

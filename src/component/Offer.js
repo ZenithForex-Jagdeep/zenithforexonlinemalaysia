@@ -870,9 +870,9 @@ function Offer() {
                     <h5 className="fw-bold">Reach Over<span style={{color: "rgb(38, 177, 255)"}}>.</span></h5>
                     <div className="text-align-center ">
                         <h6 className="py-1"><i className="fas fa-phone-alt blue" aria-hidden="true"></i><a
-                                href="tel:+919205550116"> : +91-92055 50116 (DSC)</a></h6>
+                                href="tel:+609205550116"> : +60-92055 50116 (DSC)</a></h6>
                         <h6 className="py-1"><i className="fas fa-phone-alt blue" aria-hidden="true"></i> <a
-                                href="tel:+919205550115"> : +91-92055 50115 (Others)</a></h6>
+                                href="tel:+609205550115"> : +60-92055 50115 (Others)</a></h6>
                         <h6 className="py-1"><i className="fas fa-envelope blue" aria-hidden="true"></i><a
                                 href="mailto:info@zenithfinserv.com"> : info@zenithfinserv.com</a></h6>
                     </div>

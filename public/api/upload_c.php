@@ -434,7 +434,7 @@ class FileUpload {
                         // looping for each column in a row that exist in excel.
                         $datalist[ 'C'.$x ] =  $sheet->getCellByColumnAndRow( $x, $i )->getValue();
                     }
-                    $branName = str_replace( 'Zenith Leisure Holidays-', '', $datalist[ 'C2' ] );
+                    $branName = str_replace( 'Zenith Global Business SDN. BHD.-', '', $datalist[ 'C2' ] );
                     $branchCode = $this->getBranchCode( $dbio, $dbconn, $branName );
                     // to get location_code from location_name if exist, otherwise will throw error.
                     $orderno = $datalist[ 'C3' ];

@@ -67,13 +67,7 @@ function Footer() {
           <div className="row">
             <div className="col-md-3 pb-4">
               <p className="text-white fs-8">
-                Zenith Global online is online forex portal of  Zenith Leisure
-                Holidays Ltd. Zenith Leisure Holidays Ltd.  is amongst the
-                largest RBI authorized ADII category Foreign  Exchange company in
-                India. The Foreign Exchange division  which was launched in
-                2013-14  was upgraded to Authorized Dealer Cat II in span of
-                three years based  on quality Business mix and appreciable
-                Compliance standards in conduct of Foreign Exchange business.
+                Zenith Global Business SDN. BHD. was incorporated in 2008 in the state of Penang, serving primarily retail customers in the northern region of Malaysia. After more than a decade, in August 2020, MTSB relocated to Selangor House in the Masjid India area, and then in September 2022 to No. 1006, Selangor Mansion, Jalan Masjid India.
               </p>
             </div>
             <div className="col-md-3 col-6">
@@ -191,11 +185,11 @@ function Footer() {
               <p className="text-white pt-2" style={{ cursor: "pointer" }} onClick={() => { navigate("/contact-us"); window.scrollTo(0, 0); }}>Contact Us</p>
               <p className="text-white pt-2">
                 <i className="text-red far fa-envelope"></i> Email id:
-                <a className="text-white" href="mailto:onlineteam@zenithglobal.com.my">onlineteam@zenithglobal.com.my</a>
+                <a className="text-white" href="mailto:info@zenithglobal.com.my">info@zenithglobal.com.my</a>
               </p>
               <p className="text-white pt-2">
                 <i className="text-red fas fa-phone-volume"></i> Phone:
-                <a className="text-white" href="tel:8448289666">+91-84482 89666</a>
+                <a className="text-white" href="tel:162083854">+60-84482 89666</a>
               </p>
               <p className="text-white pt-2">
                 Office Time <br />
@@ -210,10 +204,10 @@ function Footer() {
           </div>
           <div className="row py-2" style={{ borderTop: "1px solid grey" }}>
             <div className="col-md-7 text-center">
-              <span style={{ fontSize: "15px" }} className="text-white">
+              {/* <span style={{ fontSize: "15px" }} className="text-white">
                 Licence-Authorised Dealer- Category-II-No. KOL-ADII-0041-2023 Valid Till
                 30th Nov 2025.
-              </span>
+              </span> */}
             </div>
             <div className="col-md-5 text-md-right text-center">
               <span style={{ fontSize: "15px" }} className="text-white">

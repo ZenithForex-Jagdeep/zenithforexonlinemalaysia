@@ -66,7 +66,7 @@ function Footer_about() {
 						Our fast adaption to Tech driven solutions have made us more agile , efficient and cost effective enabling us to offer the Best Rate of Exchange to our esteemed customers.
 					</p> */}
 					{/* <p>
-            Zenith Leisure Holidays Ltd. is one of the fastest growing company
+            Zenith Global Business SDN. BHD.. is one of the fastest growing company
             and is amongst the <strong>Top 5 AD Cat II companies</strong>
             &nbsp;today. We take the pride to highlight that we have serviced
             more than 1 million + satisfied travellers with a greater percentage

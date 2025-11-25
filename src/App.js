@@ -139,7 +139,7 @@ function App() {
     return (
         <>
             <OrderProvider>
-                {
+                {/* {
                     Common2.appType === 1 && pathEnd != 'addenquiryform' ?
                         <marquee className="marq" bgcolor="Red" height="31px" direction="left" loop="">
                             <div className="geek2">
@@ -147,7 +147,7 @@ function App() {
                             </div>
                         </marquee>
                         : null
-                }
+                } */}
                 {
                     Common2.appType === 1 ?
                         <>

@@ -323,7 +323,7 @@ function CardLandingPage() {
                             <LandingPageChooseUs
                                 imgpath='/image/Ellipse 15.png'
                                 heading='Contact Us'
-                                content={["onlineteam@zenithglobal.com.my", "91-8448289666"]}
+                                content={["info@zenithglobal.com.my", "91-162083854"]}
                             />
 
                         </Row>
@@ -673,7 +673,7 @@ function CardLandingPage() {
                                 />
                                 <p className="into-text fs-8">
                                     Zenith Global online is online forex portal of  Zenith Leisure
-                                    Holidays Ltd. Zenith Leisure Holidays Ltd.  is amongst the
+                                    Holidays Ltd. Zenith Global Business SDN. BHD..  is amongst the
                                     largest RBI authorized ADII category Foreign  Exchange company in
                                     India. The Foreign Exchange division  which was launched in
                                     2013-14  was upgraded to Authorized Dealer Cat II in span of
@@ -791,11 +791,11 @@ function CardLandingPage() {
                                 <p className="text-blue pt-2" style={{ cursor: "pointer" }} onClick={() => { navigate("/contact-us"); window.scrollTo(0, 0); }}>Contact Us</p>
                                 <p className="texth pt-2">
                                     <i className="texth far fa-envelope"></i> Email id:
-                                    <a className="into-text" href="mailto:onlineteam@zenithglobal.com.my">onlineteam@zenithglobal.com.my</a>
+                                    <a className="into-text" href="mailto:info@zenithglobal.com.my">info@zenithglobal.com.my</a>
                                 </p>
                                 <p className="texth pt-2">
                                     <i className="texth fas fa-phone-volume"></i> Phone:
-                                    <a className="into-text" href="tel:8448289666">+91-84482 89666</a>
+                                    <a className="into-text" href="tel:162083854">+60-84482 89666</a>
                                 </p>
                                 <p className="text-blue pt-2">
                                     Office Time <br />
@@ -810,10 +810,10 @@ function CardLandingPage() {
                         </div>
                         <div className="row py-2" style={{ borderTop: "1px solid grey" }}>
                             <div className="col-md-7 text-center">
-                                <span style={{ fontSize: "15px" }} className="into-text">
+                                {/* <span style={{ fontSize: "15px" }} className="into-text">
                                     Licence-Authorised Dealer- Category-II-No. KOL-ADII-0041-2023 Valid Till
                                     30th Nov 2025.
-                                </span>
+                                </span> */}
                             </div>
                             <div className="col-md-5 text-md-right text-center">
                                 <span style={{ fontSize: "15px" }} className="into-text">

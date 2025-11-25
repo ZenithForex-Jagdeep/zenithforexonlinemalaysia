@@ -292,7 +292,7 @@ function LandingPage() {
                             <LandingPageChooseUs
                                 imgpath='/image/Ellipse 15.png'
                                 heading='Contact Us'
-                                content={["onlineteam@zenithglobal.com.my", "91-8448289666"]}
+                                content={["info@zenithglobal.com.my", "91-162083854"]}
                             />
 
                         </Row>

@@ -35,7 +35,7 @@ function Footer_privacy() {
         <div className="col-md-12 about-content">
           <p>&nbsp;</p>
           <p>
-            Zenith Leisure Holidays Ltd (ZLHL) isan AD Cat II licensed by
+            Zenith Global Business SDN. BHD. (ZLHL) isan AD Cat II licensed by
             Reserve Bank of India &nbsp;recognizes the expectations of its
             customers with regard to privacy, confidentiality and security of
             their personal information that resides with us. Keeping personal
