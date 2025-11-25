@@ -82,9 +82,9 @@ function Forms(props) {
     setIndex(selectedIndex);
   };
 
-  const goToHtml = () => {
-    window.location.href = '/public/pages/html/offer.html';
-  };
+  // const goToHtml = () => {
+  //   window.location.href = '/public/pages/html/offer.html';
+  // };
 
 
   return (

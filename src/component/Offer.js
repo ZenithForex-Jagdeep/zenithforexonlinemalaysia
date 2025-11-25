@@ -417,7 +417,7 @@ function Offer() {
                 </Col>
                 {/* --- */}
                 <div>
-                    <div>
+                    {/* <div>
                         <iframe
                             ref={iframeRef}
                             src="/pages/html/offer.html"
@@ -429,7 +429,7 @@ function Offer() {
                                 overflow: 'hidden', // hides scrollbars
                             }}
                         ></iframe>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="container col">
                     <div className="row flex-lg-row-reverse align-items-center mt-3 forex-card">
